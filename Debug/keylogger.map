@@ -1,0 +1,57 @@
+Future Technology Devices International Limited (c) 2007-2010, All Rights Reserved
+
+
+CPU_CORE =   VC2, CPU_RAM_SIZE= 16 KB, CPU_ROM_SIZE=256 KB
+
+Linker Version  = V1.0.1 Loader Version =  V1.0.1
+Thu May 02 21:38:19 2024
+
+
+=================================================================================================================
+
+SEGMENT_MAP    
+=================================================================================================================
+
+Start Address                  Segment Name                   Segment Size
+=================================================================================================================
+
+0003c0 .text                          00000106a1
+010a61 .dataFlash                     0000000179
+000000 .dataRAM                       0000000179
+000179 .bss                           000000018f
+000308 .HeapRAM                       00000038f6
+
+=================================================================================================================
+
+SYMBOL_TABLE   
+=================================================================================================================
+
+SYM ADDRESS PUBLIC SYM NAME                SYM TYPE   MEM TYPE FILE NAME            SYM SIZE  
+NOTE:L=LABEL F=FUNCTION 0=FLASH and 1=RAM
+=================================================================================================================
+
+0043a main                           F              0 keylogger.obj        0013e
+00578 usbslave_connect               F              0 keylogger.obj        0007d
+005f5 usbslave_disconnect            F              0 keylogger.obj        00079
+0066e hid_slave_attach               F              0 keylogger.obj        000a7
+00715 hid_slave_detach               F              0 keylogger.obj        00055
+0076a HID_detach                     F              0 keylogger.obj        00055
+007bf open_drivers                   F              0 keylogger.obj        00019
+007d8 attach_drivers                 F              0 keylogger.obj        00010
+007e8 close_drivers                  F              0 keylogger.obj        0000b
+007f3 firmware                       F              0 keylogger.obj        0018d
+00179 hUSBSLAVE_HID                  L              1 keylogger.obj        00002
+0017b buf                            L              1 keylogger.obj        00040
+001bb hUART                          L              1 keylogger.obj        00002
+001bd hUSBHOST_1                     L              1 keylogger.obj        00002
+001bf hUSBSLAVE_2                    L              1 keylogger.obj        00002
+001c1 tcbFIRMWARE                    L              1 keylogger.obj        00002
+001c3 hUSBHOST_HID                   L              1 keylogger.obj        00002
+0fd9d iomux_setup                    F              0 keylogger_iomux.obj  00092
+0fe2f message                        F              0 message.obj          00080
+0feaf number                         F              0 message.obj          000c8
+0ff77 usbhost_connect_state          F              0 USBHostApp.obj       000b6
+1002d hid_attach                     F              0 USBHostApp.obj       00265
+10292 enumerate_device               F              0 USBHostApp.obj       002f0
+10582 get_report_descriptor          F              0 USBHostApp.obj       003d4
+10956 get_report                     F              0 USBHostApp.obj       0010b
