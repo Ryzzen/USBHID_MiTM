@@ -516,16 +516,6 @@ attach_drivers:
 .GLOBAL	 DO_NOT_EXPORT  "attach_drivers"
 
 .FUNCTION	"attach_drivers"	
-SP_DEC	$2
-PUSH8	$3
-PUSH16	hUSBSLAVE_2
-SP_DEC	$2
-CALL	hid_slave_attach
-POP16	%eax
-SP_WR16	%eax	$3
-SP_INC	$3
-SP_RD16	hUSBSLAVE_HID	$0
-SP_INC	$2
 RTS	
 .FUNC_END	"attach_drivers"
 
@@ -550,7 +540,7 @@ PUSH32	%r0
 PUSH32	%r1
 PUSH32	%r2
 PUSH32	%r3
-SP_DEC	$34
+SP_DEC	$42
 CALL	open_drivers
 SP_STORE	%r1
 CPY16	%r2	%r1
@@ -602,49 +592,89 @@ SP_WR8	%ecx	$18
 CMP16	hUSBHOST_HID	$0
 JZ	@IC12
 @IC13:	
+PUSH8	$1
+SP_DEC	$2
+CALL	vos_dev_open
+POP16	%eax
+SP_WR16	%eax	$20
+SP_INC	$1
+SP_RD16	hUSBSLAVE_2	$19
 SP_STORE	%r1
-INC16	%r1	$19
+INC16	%r1	$13
+PUSH16	%r1
+SP_DEC	$1
+CALL	init_slave_kbd_driver
+POP8	%eax
+SP_WR8	%eax	$23
+SP_INC	$2
+SP_STORE	%r1
+INC16	%r1	$22
 LD16	%r2	$buf
 PUSH16	%r2
 PUSH16	%r1
 SP_DEC	$1
 CALL	get_report_descriptor
 POP8	%eax
-SP_WR8	%eax	$36
+SP_WR8	%eax	$39
 SP_INC	$4
-SP_RD8	%r0	$32
+SP_RD8	%r0	$35
 @IC14:	
 CMP8	%r0	$0
 JNZ	@IC15
 @IC16:	
 SP_STORE	%r1
-INC16	%r1	$19
+INC16	%r1	$22
 LD16	%r2	$buf
+SP_STORE	%r3
+INC16	%r3	$36
+PUSH16	%r3
 PUSH16	%r2
 PUSH16	%r1
 SP_DEC	$1
 CALL	get_report
 POP8	%eax
-SP_WR8	%eax	$37
-SP_INC	$4
-SP_RD8	%r0	$33
+SP_WR8	%eax	$44
+SP_INC	$6
+SP_RD8	%r0	$38
+SP_STORE	%r1
+INC16	%r1	$39
+PUSH16	%r1
+SP_RD16	%eax	$38
+PUSH16	%eax
+PUSH16	%r2
+PUSH16	hUSBSLAVE_HID
+SP_DEC	$1
+CALL	vos_dev_write
+POP8	%eax
+SP_WR8	%eax	$49
+SP_INC	$8
 JUMP	@IC14
 @IC15:	
 PUSH16	hUSBHOST_HID
 CALL	HID_detach
 SP_INC	$2
-@IC12:	
-CMP16	hUSBHOST_1	$0
-JZ	@IC9
+PUSH16	hUSBSLAVE_HID
+CALL	hid_slave_detach
+SP_INC	$2
+CMP16	hUSBSLAVE_2	$0
+JZ	@IC19
 @IC20:	
-PUSH16	hUSBHOST_1
+PUSH16	hUSBSLAVE_2
 CALL	vos_dev_close
 SP_INC	$2
 @IC19:	
+@IC12:	
+CMP16	hUSBHOST_1	$0
+JZ	@IC9
+@IC22:	
+PUSH16	hUSBHOST_1
+CALL	vos_dev_close
+SP_INC	$2
+@IC21:	
 JUMP	@IC9
 @IC10:	
 CALL	close_drivers
-SP_INC	$34
+SP_INC	$42
 POP32	%r3
 POP32	%r2
 POP32	%r1

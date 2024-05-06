@@ -27,7 +27,10 @@ myProduct	.DB	24	24, 3, 77, 0, 121, 0, 32, 0, 75, 0, 101, 0, 121, 0, 98, 0, 111,
 .GLOBAL	  DO_NOT_EXPORT "myProduct"
 mySerialNumber	.DB	18	18, 3, 55, 0, 51, 0, 50, 0, 52, 0, 55, 0, 56, 0, 57, 0, 56, 0
 .GLOBAL	  DO_NOT_EXPORT "mySerialNumber"
+Str@0	.ASCIIZ	"Set descriptors failed - code "
+Str@1	.ASCIIZ	"\r\n"
 .WEAK	"hUSBSLAVE_HID"
+.WEAK	"hUART"
 .WEAK	"hUSBSLAVE_2"
 
 
@@ -164,11 +167,15 @@ mySerialNumber	.DB	18	18, 3, 55, 0, 51, 0, 50, 0, 52, 0, 55, 0, 56, 0, 57, 0, 56
 
 .WEAK	"vos_gpio_wait_on_all_ints"
 
+.WEAK	"number"
+
 .WEAK	"vos_delay_cancel"
 
 .WEAK	"vos_dma_retained_configure"
 
 .WEAK	"vos_unlock_mutex"
+
+.WEAK	"message"
 
 .WEAK	"vos_gpio_read_all"
 
@@ -216,14 +223,14 @@ PUSH32	%r0
 PUSH32	%r1
 PUSH32	%r2
 PUSH32	%r3
-SP_DEC	$33
-PUSH8	$1
+SP_DEC	$32
+PUSH8	$3
 SP_DEC	$2
 CALL	vos_dev_open
 POP16	%eax
 SP_WR16	%eax	$1
 SP_INC	$1
-SP_RD16	hUSBSLAVE_2	$0
+SP_RD16	hUSBSLAVE_HID	$0
 SP_STORE	%r0
 INC16	%r0	$2
 LD16	%r1	$usbSlaveHIDKeyboard_default_device_descriptor
@@ -247,45 +254,26 @@ ADD16	(%ecx)	%r2	%ebx
 LD16	%r3	$usbSlaveHIDKeyboard_default_string_descriptor_2
 SP_RD16	%ecx	$16
 CPY16	(%ecx)	%r3
+INC16	%r2	$6
+LD16	%r3	$usbSlaveHIDKeyboard_default_string_descriptor_3
+CPY16	(%r2)	%r3
+LD16	%r3	$12
+ADD16	%r3	%r0
 SP_STORE	%ecx
 INC16	%ecx	$18
-LD16	%ebx	$6
-ADD16	(%ecx)	%r2	%ebx
-LD16	%r2	$usbSlaveHIDKeyboard_default_string_descriptor_3
-SP_RD16	%ecx	$18
-CPY16	(%ecx)	%r2
-LD16	%r2	$12
-ADD16	%r2	%r0
-LD16	%r3	$usbSlaveHIDKeyboard_default_report_descriptor
-CPY16	(%r2)	%r3
-CPY16	%r2	(%r0)
-INC16	%r2	$8
-SP_STORE	%ecx
-INC16	%ecx	$20
+LD16	(%ecx)	$usbSlaveHIDKeyboard_default_report_descriptor
 SP_STORE	%eax
-INC16	%eax	$53
-CPY16	(%ecx)	%eax
-SP_RD16	%eax	$20
-CPY16	%r3	(%eax)
-CPY16	%r3	(%r3)
-CPY16	(%r2)	%r3
-CPY16	%r2	(%r0)
-INC16	%r2	$10
-SP_RD16	%eax	$20
-CPY16	%r3	(%eax)
-INC16	%r3	$2
-CPY16	%r3	(%r3)
-CPY16	(%r2)	%r3
-LD16	%r2	$myManufacturer
-CPY16	(%r1)	%r2
+INC16	%eax	$18
+CPY16	(%r3)	(%eax)
+LD16	%r3	$myManufacturer
+CPY16	(%r1)	%r3
 LD16	%r1	$myProduct
 SP_RD16	%ecx	$16
 CPY16	(%ecx)	%r1
 LD16	%r1	$mySerialNumber
-SP_RD16	%ecx	$18
-CPY16	(%ecx)	%r1
+CPY16	(%r2)	%r1
 SP_STORE	%r1
-INC16	%r1	$22
+INC16	%r1	$20
 CPY16	%r2	%r1
 LD8	(%r2)	$227
 LD16	%r2	$1
@@ -293,27 +281,58 @@ ADD16	%r2	%r1
 CPY16	%r0	%r0
 CPY16	(%r2)	%r0
 PUSH16	%r1
-PUSH16	hUSBSLAVE_HID
+SP_RD16	%eax	$2
+PUSH16	%eax
 SP_DEC	$1
 CALL	vos_dev_ioctl
 POP8	%eax
-SP_WR8	%eax	$35
+SP_WR8	%eax	$33
 SP_INC	$4
-CPY16	%r0	%r1
-LD8	(%r0)	$225
+SP_RD8	%r0	$29
+SP_RD8	%ecx	$29
+CMP8	%ecx	$0
+JZ	@IC1
+@IC2:	
+LD32	%r1	$Str@0
+PUSH16	%r1
+CALL	message
+SP_INC	$2
+PUSH8	%r0
+CALL	number
+SP_INC	$1
+LD32	%r1	$Str@1
+PUSH16	%r1
+CALL	message
+SP_INC	$2
 SP_STORE	%eax
-INC16	%eax	$0
-CPY16	(%r2)	(%eax)
+INC16	%eax	$51
+CPY8	(%eax)	%r0
+SP_INC	$32
+POP32	%r3
+POP32	%r2
+POP32	%r1
+POP32	%r0
+RTS	
+@IC1:	
+SP_STORE	%r1
+INC16	%r1	$20
+CPY16	%r2	%r1
+LD8	(%r2)	$225
+LD16	%r2	$1
+ADD16	%r2	%r1
+CPY16	(%r2)	hUSBSLAVE_2
 PUSH16	%r1
 PUSH16	hUSBSLAVE_HID
 SP_DEC	$1
 CALL	vos_dev_ioctl
 POP8	%eax
-SP_WR8	%eax	$36
+SP_WR8	%eax	$34
 SP_INC	$4
-SP_RD8	%eax	$32
-SP_WR8	%eax	$52
-SP_INC	$33
+SP_RD8	%ecx	$30
+SP_WR8	%ecx	$31
+SP_RD8	%eax	$30
+SP_WR8	%eax	$51
+SP_INC	$32
 POP32	%r3
 POP32	%r2
 POP32	%r1

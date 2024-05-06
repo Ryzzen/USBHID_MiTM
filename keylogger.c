@@ -171,7 +171,7 @@ void open_drivers(void)
 void attach_drivers(void)
 {
         /* FTDI:SUA Layered Driver Attach Function Calls */
-        hUSBSLAVE_HID = hid_slave_attach(hUSBSLAVE_2, VOS_DEV_USBSLAVE_HID);
+        //hUSBSLAVE_HID = hid_slave_attach(hUSBSLAVE_2, VOS_DEV_USBSLAVE_HID);
         //hUSBHOST_HID = hid_attach(hUSBHOST_1, VOS_DEV_USBHOST_HID);
         /* FTDI:EUA */
 }
@@ -193,7 +193,9 @@ void firmware()
 	usbhost_ioctl_cb_vid_pid_t hc_iocb_vid_pid;
 	usbHostHID_ioctl_t	hid_iocb;
 	
-	usbSlaveHIDKbd_report_structure_t report_buffer;
+	unsigned short num_xfer;
+	unsigned short len;
+	
 	unsigned char status;
 	
 	open_drivers();
@@ -212,23 +214,29 @@ void firmware()
 		status = enumerate_device(&hc_iocb_vid_pid);
 		
 		if (hUSBHOST_HID) {
-			//init_slave_kbd_driver(&hc_iocb_vid_pid);
-			//vos_memset(&report_buffer, 0, sizeof(usbSlaveHIDKbd_report_structure_t));
+			hUSBSLAVE_2 = vos_dev_open(VOS_DEV_USBSLAVE_2);
+			
+			init_slave_kbd_driver(&hc_iocb_vid_pid);
+			//usbslave_connect(hUSBSLAVE_HID);
 			
 			status = get_report_descriptor(&hid_iocb, buf);
 			
-			while(status == USBHOSTHID_OK)
-				status = get_report(&hid_iocb, buf);
-				
+			while(status == USBHOSTHID_OK) {
+				status = get_report(&hid_iocb, buf, &len);
+				vos_dev_write(hUSBSLAVE_HID, buf, len, &num_xfer);
+			}
+			
+			// Host
 			HID_detach(hUSBHOST_HID);
-			//usbslave_disconnect();
-			//hid_slave_detach();
+			// Device
+			//usbslave_disconnect(hUSBSLAVE_HID);
+			hid_slave_detach(hUSBSLAVE_HID);
+			if (hUSBSLAVE_2)
+				vos_dev_close(hUSBSLAVE_2);
 		}
 		
 		if (hUSBHOST_1)
 			vos_dev_close(hUSBHOST_1);
-		//if (hUSBSLAVE_2)
-			//vos_dev_close(hUSBSLAVE_2);
 	}
 	
 	close_drivers();

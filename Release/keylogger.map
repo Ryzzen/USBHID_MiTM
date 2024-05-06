@@ -4,7 +4,7 @@ Future Technology Devices International Limited (c) 2007-2010, All Rights Reserv
 CPU_CORE =   VC2, CPU_RAM_SIZE= 16 KB, CPU_ROM_SIZE=256 KB
 
 Linker Version  = V1.0.1 Loader Version =  V1.0.1
-Sat May 04 02:30:36 2024
+Mon May 06 17:21:42 2024
 
 
 =================================================================================================================
@@ -15,11 +15,11 @@ SEGMENT_MAP
 Start Address                  Segment Name                   Segment Size
 =================================================================================================================
 
-0003c0 .text                          000000fe49
-010209 .dataFlash                     0000000265
-000000 .dataRAM                       0000000265
-000265 .bss                           000000018f
-0003f4 .HeapRAM                       000000380a
+0003c0 .text                          000000fe84
+010244 .dataFlash                     0000000287
+000000 .dataRAM                       0000000287
+000287 .bss                           000000018f
+000416 .HeapRAM                       00000037e8
 
 =================================================================================================================
 
@@ -37,25 +37,25 @@ NOTE:L=LABEL F=FUNCTION 0=FLASH and 1=RAM
 00589 hid_slave_detach               F              0 keylogger.obj        0002e
 005b7 HID_detach                     F              0 keylogger.obj        0002e
 005e5 open_drivers                   F              0 keylogger.obj        0000e
-005f3 attach_drivers                 F              0 keylogger.obj        00010
-00603 close_drivers                  F              0 keylogger.obj        0000b
-0060e firmware                       F              0 keylogger.obj        000b6
-00265 hUSBSLAVE_HID                  L              1 keylogger.obj        00002
-00267 buf                            L              1 keylogger.obj        00040
-002a7 hUART                          L              1 keylogger.obj        00002
-002a9 hUSBHOST_1                     L              1 keylogger.obj        00002
-002ab hUSBSLAVE_2                    L              1 keylogger.obj        00002
-002ad tcbFIRMWARE                    L              1 keylogger.obj        00002
-002af hUSBHOST_HID                   L              1 keylogger.obj        00002
-0fae1 iomux_setup                    F              0 keylogger_iomux.obj  00089
-0fb6a message                        F              0 message.obj          0004b
-0fbb5 number                         F              0 message.obj          00098
-0fc4d usbhost_connect_state          F              0 USBHostApp.obj       0005a
-0fca7 hid_attach                     F              0 USBHostApp.obj       000e2
-0fd89 enumerate_device               F              0 USBHostApp.obj       0015c
-0fee5 get_report_descriptor          F              0 USBHostApp.obj       00196
-1007b get_report                     F              0 USBHostApp.obj       00090
-1010b init_slave_kbd_driver          F              0 USBSlaveApp.obj      000fe
+005f3 attach_drivers                 F              0 keylogger.obj        00001
+005f4 close_drivers                  F              0 keylogger.obj        0000b
+005ff firmware                       F              0 keylogger.obj        000fa
+00287 hUSBSLAVE_HID                  L              1 keylogger.obj        00002
+00289 buf                            L              1 keylogger.obj        00040
+002c9 hUART                          L              1 keylogger.obj        00002
+002cb hUSBHOST_1                     L              1 keylogger.obj        00002
+002cd hUSBSLAVE_2                    L              1 keylogger.obj        00002
+002cf tcbFIRMWARE                    L              1 keylogger.obj        00002
+002d1 hUSBHOST_HID                   L              1 keylogger.obj        00002
+0fb17 iomux_setup                    F              0 keylogger_iomux.obj  00089
+0fba0 message                        F              0 message.obj          0004b
+0fbeb number                         F              0 message.obj          00098
+0fc83 usbhost_connect_state          F              0 USBHostApp.obj       0005a
+0fcdd hid_attach                     F              0 USBHostApp.obj       000e2
+0fdbf enumerate_device               F              0 USBHostApp.obj       0015c
+0ff1b get_report_descriptor          F              0 USBHostApp.obj       00185
+100a0 get_report                     F              0 USBHostApp.obj       0009c
+1013c init_slave_kbd_driver          F              0 USBSlaveApp.obj      00108
 00182 usbSlaveHIDKeyboard_default_device_descriptor L              1 USBSlaveApp.obj      00012
 00194 usbSlaveHIDKeyboard_default_config_descriptor L              1 USBSlaveApp.obj      00022
 001b6 usbSlaveHIDKeyboard_default_string_descriptor_0 L              1 USBSlaveApp.obj      00004

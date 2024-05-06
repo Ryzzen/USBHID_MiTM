@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <VinTag>
  <version>1.0.0</version>
- <file name="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
+ <file name="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
   <enum name="IOMUX_SIGNALS" line="24" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\iomux.h">
    <value name="IOMUX_IN_DEBUGGER" const="0"/>
    <value name="IOMUX_IN_UART_RXD" const="1"/>
@@ -206,6 +206,20 @@
    <member name="wLength" offset="48" size="16"
     basetype="SHORT" baseattr="unsigned,"/>
   </struct>
+  <struct name="_usbslave_ioctl_cb_t" line="64" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h">
+   <member name="ioctl_code" offset="0" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="ep" offset="8" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="handle" offset="16" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="get" offset="24" size="16"
+    basetype="VOID" baseattr="ptr,"/>
+   <member name="set" offset="40" size="16"
+    basetype="VOID" baseattr="ptr,"/>
+   <member name="request" offset="56" size="48"
+    basename="__unnamed_struct_7" basetype="STRUCT" baseattr=""/>
+  </struct>
   <enum name="dma_status" line="27" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\dma.h">
    <value name="DMA_OK" const="0"/>
    <value name="DMA_INVALID_PARAMETER" const="1"/>
@@ -314,6 +328,12 @@
    <member name="gpio_port_e" offset="32" size="8"
     basetype="CHAR" baseattr="unsigned,"/>
   </struct>
+  <enum name="USBSLAVE_STATUS" line="123" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h">
+   <value name="USBSLAVE_OK" const="0"/>
+   <value name="USBSLAVE_INVALID_PARAMETER" const="1"/>
+   <value name="USBSLAVE_ERROR" const="2"/>
+   <value name="USBSLAVE_FATAL_ERROR" const="255"/>
+  </enum>
   <struct name="_usb_deviceEndpointDescriptor_t" line="295" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USB.h">
    <member name="bLength" offset="0" size="8"
     basetype="CHAR" baseattr="unsigned,"/>
@@ -379,6 +399,32 @@
     basetype="CHAR" baseattr="unsigned,"/>
    <member name="bReserved" offset="72" size="8"
     basetype="CHAR" baseattr="unsigned,"/>
+  </struct>
+  <struct name="_usbSlaveHIDTouchscreen_report_structure_t" line="204" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlaveHIDTouchscreen.h">
+   <member name="reportID" offset="0" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="tipSwitch" offset="8" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="resv1" offset="9" size="3"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="inRange" offset="12" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="confidence" offset="13" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="resv2" offset="14" size="2"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="resv3" offset="16" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="xData" offset="24" size="16"
+    basetype="SHORT" baseattr="unsigned,"/>
+   <member name="yData" offset="40" size="16"
+    basetype="SHORT" baseattr="unsigned,"/>
+   <member name="height" offset="56" size="16"
+    basetype="SHORT" baseattr="unsigned,"/>
+   <member name="width" offset="72" size="16"
+    basetype="SHORT" baseattr="unsigned,"/>
+   <member name="resv5" offset="88" size="16"
+    basetype="SHORT" baseattr="unsigned,"/>
   </struct>
   <struct name="_vos_mutex_t" line="120" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h">
    <member name="threads" offset="0" size="16"
@@ -452,6 +498,12 @@
    <member name="flags" offset="192" size="8"
     basetype="CHAR" baseattr="unsigned,"/>
   </struct>
+  <enum name="USBSLAVEHID_STATUS" line="47" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlaveHID.h">
+   <value name="USBSLAVEHID_OK" const="0"/>
+   <value name="USBSLAVEHID_INVALID_PARAMETER" const="1"/>
+   <value name="USBSLAVEHID_NOT_SETUP" const="2"/>
+   <value name="USBSLAVEHID_ERROR" const="3"/>
+  </enum>
   <struct name="_vos_system_data_area_t" line="193" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h">
    <member name="next" offset="0" size="16"
     basename="_vos_system_data_area_t" basetype="STRUCT" baseattr="ptr,"/>
@@ -469,6 +521,48 @@
     basetype="CHAR" baseattr="unsigned,"/>
    <member name="wLANGID0" offset="16" size="16"
     basetype="SHORT" baseattr="unsigned,"/>
+  </struct>
+  <struct name="_usbSlaveHIDKbd_report_structure_t" line="186" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlaveHIDKbd.h">
+   <member name="kbdLeftControl" offset="0" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="kbdLeftShift" offset="1" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="kbdLeftAlt" offset="2" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="kbdLeftGUI" offset="3" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="kbdRightControl" offset="4" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="kbdRightShift" offset="5" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="kbdRightAlt" offset="6" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="kbdRightGUI" offset="7" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="arrayNotUsed" offset="8" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="arrayKeyboard" offset="16" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="arrayResv1" offset="24" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="arrayResv2" offset="32" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="arrayResv3" offset="40" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="arrayResv4" offset="48" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="arrayResv5" offset="56" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+  </struct>
+  <struct name="_usbSlaveHID_ioctl_cb_descriptors_t" line="39" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlaveHID.h">
+   <member name="device_descriptor" offset="0" size="16"
+    basename="_usb_deviceDescriptor_t" basetype="STRUCT" baseattr="ptr,"/>
+   <member name="config_descriptor" offset="16" size="16"
+    basename="_usb_deviceConfigurationDescriptor_t" basetype="STRUCT" baseattr="ptr,"/>
+   <member name="strings" offset="32" size="64"
+    basename="_usb_deviceStringDescriptor_t" basetype="STRUCT" baseattr="ptr," basearray="4,"/>
+   <member name="report_descriptor" offset="96" size="16"
+    basename="_usb_hidDescriptor_t" basetype="STRUCT" baseattr="ptr,"/>
   </struct>
   <struct name="_vos_cond_var_t" line="174" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h">
    <member name="threads" offset="0" size="16"
@@ -504,6 +598,10 @@
    <member name="zero" offset="104" size="8"
     basetype="CHAR" baseattr="unsigned,"/>
   </struct>
+  <struct name="_uart_context_t" line="109" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\UART.h">
+   <member name="buffer_size" offset="0" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+  </struct>
   <enum name="gpioctrl_status" line="26" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\gpioctrl.h">
    <value name="GPIO_OK" const="0"/>
    <value name="GPIO_INVALID_PIN" const="1"/>
@@ -527,6 +625,22 @@
     basetype="SHORT" baseattr="unsigned,"/>
    <member name="resv2" offset="18" size="14"
     basetype="SHORT" baseattr="unsigned,"/>
+  </struct>
+  <struct name="_usbSlaveHIDMouse_report_structure_t" line="180" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlaveHIDMouse.h">
+   <member name="mouseB1" offset="0" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="mouseB2" offset="1" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="mouseB3" offset="2" size="1"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="mouseResv" offset="3" size="5"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="mouseX" offset="8" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="mouseY" offset="16" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="mouseWheel" offset="24" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
   </struct>
   <struct name="_vos_semaphore_t" line="143" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h">
    <member name="val" offset="0" size="16"
@@ -610,6 +724,32 @@
    <value name="DELAYED" const="4"/>
    <value name="GONE" const="5"/>
   </enum>
+  <enum name="__anon_enum_type_2" line="93" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h">
+   <value name="USBSLAVE_CONTROL_SETUP" const="0"/>
+   <value name="USBSLAVE_CONTROL_OUT" const="1"/>
+   <value name="USBSLAVE_CONTROL_IN" const="2"/>
+  </enum>
+  <enum name="__anon_enum_type_3" line="106" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h">
+   <value name="usbsStateNotAttached" const="0"/>
+   <value name="usbsStateAttached" const="1"/>
+   <value name="usbsStatePowered" const="2"/>
+   <value name="usbsStateDefault" const="3"/>
+   <value name="usbsStateAddress" const="4"/>
+   <value name="usbsStateConfigured" const="5"/>
+   <value name="usbsStateSuspended" const="6"/>
+  </enum>
+  <enum name="__anon_enum_type_4" line="120" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h">
+   <value name="usbsEvReset" const="0"/>
+   <value name="usbsEvAddressAssigned" const="1"/>
+   <value name="usbsEvDeviceConfigured" const="2"/>
+   <value name="usbsEvDeviceDeconfigured" const="3"/>
+   <value name="usbsEvHubReset" const="4"/>
+   <value name="usbsEvHubConfigured" const="5"/>
+   <value name="usbsEvHubDeconfigured" const="6"/>
+   <value name="usbsEvBusActivity" const="7"/>
+   <value name="usbsEvBusInactive" const="8"/>
+   <value name="usbsEvPowerInterruption" const="9"/>
+  </enum>
   <struct name="__unnamed_struct_1" line="44" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\dma.h">
    <member name="io_addr" offset="0" size="16"
     basetype="SHORT" baseattr="unsigned,"/>
@@ -636,15 +776,55 @@
    <member name="dif" offset="0" size="32"
     basetype="INT" baseattr="signed,"/>
   </struct>
-  <struct name="__unnamed_struct_5" line="113" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBHostHID.h">
-   <member name="data" offset="0" size="16"
-    basetype="CHAR" baseattr="unsigned,ptr,"/>
-   <member name="att" offset="0" size="16"
-    basename="_usbHostHID_ioctl_cb_attach_t" basetype="STRUCT" baseattr="ptr,"/>
+  <struct name="__unnamed_struct_5" line="77" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h">
+   <member name="in_mask" offset="0" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="out_mask" offset="8" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
   </struct>
-  <struct name="__unnamed_struct_6" line="117" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBHostHID.h">
-   <member name="data" offset="0" size="16"
+  <struct name="__unnamed_struct_6" line="82" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h">
+   <member name="buffer" offset="0" size="16"
     basetype="CHAR" baseattr="unsigned,ptr,"/>
+   <member name="size" offset="16" size="16"
+    basetype="SHORT" baseattr="signed,"/>
+   <member name="bytes_transferred" offset="32" size="16"
+    basetype="SHORT" baseattr="signed,"/>
+  </struct>
+  <struct name="__unnamed_struct_7" line="84" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h">
+   <member name="set_ep_masks" offset="0" size="16"
+    basename="__unnamed_struct_5" basetype="STRUCT" baseattr=""/>
+   <member name="setup_or_bulk_transfer" offset="0" size="48"
+    basename="__unnamed_struct_6" basetype="STRUCT" baseattr=""/>
+   <member name="ep_max_packet_size" offset="0" size="32"
+    basetype="INT" baseattr="unsigned,"/>
+  </struct>
+  <struct name="__unnamed_struct_8" line="66" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\ioctl.h">
+   <member name="uart_baud_rate" offset="0" size="32"
+    basetype="LONG" baseattr="unsigned,"/>
+   <member name="spi_master_sck_freq" offset="0" size="32"
+    basetype="LONG" baseattr="unsigned,"/>
+   <member name="param" offset="0" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="data" offset="0" size="16"
+    basetype="VOID" baseattr="ptr,"/>
+  </struct>
+  <struct name="__unnamed_struct_9" line="73" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\ioctl.h">
+   <member name="spi_master_sck_freq" offset="0" size="32"
+    basetype="LONG" baseattr="unsigned,"/>
+   <member name="queue_stat" offset="0" size="16"
+    basetype="SHORT" baseattr="unsigned,"/>
+   <member name="param" offset="0" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="data" offset="0" size="16"
+    basetype="VOID" baseattr="ptr,"/>
+  </struct>
+  <struct name="_common_ioctl_cb_t" line="58" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\ioctl.h">
+   <member name="ioctl_code" offset="0" size="8"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <member name="set" offset="8" size="32"
+    basename="__unnamed_struct_8" basetype="STRUCT" baseattr=""/>
+   <member name="get" offset="40" size="32"
+    basename="__unnamed_struct_9" basetype="STRUCT" baseattr=""/>
   </struct>
   <struct name="_usbHostHID_ioctl_cb_attach_t" line="86" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBHostHID.h">
    <member name="hc_handle" offset="0" size="16"
@@ -670,10 +850,27 @@
    <member name="Length" offset="56" size="16"
     basetype="SHORT" baseattr="unsigned,"/>
    <member name="set" offset="72" size="16"
-    basename="__unnamed_struct_5" basetype="STRUCT" baseattr=""/>
+    basename="__unnamed_struct_10" basetype="STRUCT" baseattr=""/>
    <member name="get" offset="88" size="16"
-    basename="__unnamed_struct_6" basetype="STRUCT" baseattr=""/>
+    basename="__unnamed_struct_11" basetype="STRUCT" baseattr=""/>
   </struct>
+  <struct name="__unnamed_struct_10" line="113" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBHostHID.h">
+   <member name="data" offset="0" size="16"
+    basetype="CHAR" baseattr="unsigned,ptr,"/>
+   <member name="att" offset="0" size="16"
+    basename="_usbHostHID_ioctl_cb_attach_t" basetype="STRUCT" baseattr="ptr,"/>
+  </struct>
+  <struct name="__unnamed_struct_11" line="117" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBHostHID.h">
+   <member name="data" offset="0" size="16"
+    basetype="CHAR" baseattr="unsigned,ptr,"/>
+  </struct>
+  <enum name="UART_STATUS" line="100" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\UART.h">
+   <value name="UART_OK" const="0"/>
+   <value name="UART_INVALID_PARAMETER" const="1"/>
+   <value name="UART_DMA_NOT_ENABLED" const="2"/>
+   <value name="UART_ERROR" const="3"/>
+   <value name="UART_FATAL_ERROR" const="255"/>
+  </enum>
   <struct name="_usbhost_ioctl_cb_dev_info_t" line="315" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBHost.h">
    <member name="port_number" offset="0" size="8"
     basetype="CHAR" baseattr="unsigned,"/>
@@ -759,6 +956,8 @@
    <member name="frame" offset="240" size="16"
     basetype="SHORT" baseattr="unsigned,"/>
   </struct>
+  <typedef name="usbslave_ep_handle_t" line="31" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h"
+   basetype="CHAR" baseattr="unsigned,"/>
   <typedef name="vos_gpio_t" line="111" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\gpioctrl.h"
    basename="_vos_gpio_t" basetype="STRUCT" baseattr=""/>
   <typedef name="usbhost_ep_handle_ex" line="132" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBHost.h"
@@ -778,6 +977,8 @@
    basetype="VOID" baseattr="ptr,"/>
   <typedef name="usb_deviceQualifierDescriptor_t" line="260" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USB.h"
    basename="_usb_deviceQualifierDescriptor_t" basetype="STRUCT" baseattr=""/>
+  <typedef name="usbSlaveHIDTouchscreen_report_structure_t" line="219" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlaveHIDTouchscreen.h"
+   basename="_usbSlaveHIDTouchscreen_report_structure_t" basetype="STRUCT" baseattr=""/>
   <typedef name="vos_mutex_t" line="125" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
    basename="_vos_mutex_t" basetype="STRUCT" baseattr=""/>
   <typedef name="vos_device_t" line="40" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\devman.h"
@@ -790,6 +991,8 @@
    basename="_vos_system_data_area_t" basetype="STRUCT" baseattr=""/>
   <typedef name="usb_deviceStringDescriptorZero_t" line="333" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USB.h"
    basename="_usb_deviceStringDescriptorZero_t" basetype="STRUCT" baseattr=""/>
+  <typedef name="usbSlaveHIDKbd_report_structure_t" line="203" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlaveHIDKbd.h"
+   basename="_usbSlaveHIDKbd_report_structure_t" basetype="STRUCT" baseattr=""/>
   <proto name="PF_IO" line="39" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
    basetype="CHAR" baseattr="signed,">
    <typedef name="__unknown" line="39" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
@@ -799,6 +1002,8 @@
    <typedef name="__unknown" line="39" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
     basetype="SHORT" baseattr="unsigned,ptr,"/>
   </proto>
+  <typedef name="usbSlaveHID_ioctl_cb_descriptors_t" line="44" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlaveHID.h"
+   basename="_usbSlaveHID_ioctl_cb_descriptors_t" basetype="STRUCT" baseattr=""/>
   <typedef name="vos_cond_var_t" line="178" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
    basename="_vos_cond_var_t" basetype="STRUCT" baseattr=""/>
   <typedef name="usbhost_device_handle_ex" line="129" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBHost.h"
@@ -810,6 +1015,8 @@
    basename="_usbhost_ioctl_cb_class_t" basetype="STRUCT" baseattr=""/>
   <typedef name="usbhost_xfer_t" line="160" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBHost.h"
    basename="_usbhost_xfer_t" basetype="STRUCT" baseattr=""/>
+  <typedef name="uart_context_t" line="111" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\UART.h"
+   basename="_uart_context_t" basetype="STRUCT" baseattr=""/>
   <proto name="PF_OPEN" line="36" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
    basetype="VOID" baseattr="">
    <typedef name="__unknown" line="36" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
@@ -817,6 +1024,8 @@
   </proto>
   <typedef name="usb_hubStatus_t" line="403" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USB.h"
    basename="_usb_hubStatus_t" basetype="STRUCT" baseattr=""/>
+  <typedef name="usbSlaveHIDMouse_report_structure_t" line="188" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlaveHIDMouse.h"
+   basename="_usbSlaveHIDMouse_report_structure_t" basetype="STRUCT" baseattr=""/>
   <typedef name="vos_semaphore_t" line="147" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
    basename="_vos_semaphore_t" basetype="STRUCT" baseattr=""/>
   <typedef name="usb_deviceConfigurationDescriptor_t" line="273" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USB.h"
@@ -839,6 +1048,8 @@
    basename="_usbhost_ioctl_cb_ep_info_t" basetype="STRUCT" baseattr=""/>
   <typedef name="usb_interfaceAssociationDescriptor_t" line="322" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USB.h"
    basename="_usb_interfaceAssociationDescriptor_t" basetype="STRUCT" baseattr=""/>
+  <typedef name="common_ioctl_cb_t" line="74" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\ioctl.h"
+   basename="_common_ioctl_cb_t" basetype="STRUCT" baseattr=""/>
   <typedef name="usbHostHID_ioctl_cb_attach_t" line="90" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBHostHID.h"
    basename="_usbHostHID_ioctl_cb_attach_t" basetype="STRUCT" baseattr=""/>
   <typedef name="usbhost_ep_handle" line="131" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBHost.h"
@@ -866,49 +1077,63 @@
    basename="_usb_hidDescriptor_t" basetype="STRUCT" baseattr=""/>
   <typedef name="usb_deviceRequest_t" line="179" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USB.h"
    basename="_usb_deviceRequest_t" basetype="STRUCT" baseattr=""/>
+  <typedef name="usbslave_ioctl_cb_t" line="85" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h"
+   basename="_usbslave_ioctl_cb_t" basetype="STRUCT" baseattr=""/>
   <typedef name="usb_hubDescriptor_t" line="359" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USB.h"
    basename="_usb_hubDescriptor_t" basetype="STRUCT" baseattr=""/>
   <typedef name="usb_hubPortStatus_t" line="434" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USB.h"
    basename="_usb_hubPortStatus_t" basetype="STRUCT" baseattr=""/>
-  <label name="desc" line="124" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"/>  <proto name="hid_attach" line="23" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-   basetype="SHORT" baseattr="unsigned,">
-   <var name="hUSB" line="23" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+  <label name="main_loop" line="81" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"/>  <proto name="open_drivers" line="162" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   basetype="VOID" baseattr="">
+  </proto>
+  <proto name="close_drivers" line="179" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   basetype="VOID" baseattr="">
+  </proto>
+  <proto name="main" line="36" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   basetype="VOID" baseattr="">
+  </proto>
+  <proto name="attach_drivers" line="171" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   basetype="VOID" baseattr="">
+  </proto>
+  <proto name="hid_slave_detach" line="131" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   basetype="VOID" baseattr="">
+   <var name="hSlaveHID" line="131" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
     type="AUTO" storage="AUTO VAR" attr="param,"
     basetype="SHORT" baseattr="unsigned,"/>
-   <var name="devHID" line="23" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+  </proto>
+  <proto name="hid_slave_attach" line="111" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   basetype="SHORT" baseattr="unsigned,">
+   <var name="hUSB" line="111" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basetype="SHORT" baseattr="unsigned,"/>
+   <var name="devSlaveHID" line="111" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
     type="AUTO" storage="AUTO VAR" attr="param,"
     basetype="CHAR" baseattr="unsigned,"/>
   </proto>
-  <proto name="get_report" line="181" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+  <proto name="usbslave_connect" line="86" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
    basetype="CHAR" baseattr="unsigned,">
-   <var name="hid_iocb" line="181" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-    type="AUTO" storage="AUTO VAR" attr="param,"
-    basename="_usbHostHID_ioctl_t" basetype="STRUCT" baseattr="ptr,"/>
-   <var name="buf" line="181" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-    type="AUTO" storage="AUTO VAR" attr="param,"
-    basetype="CHAR" baseattr="signed,ptr,"/>
-  </proto>
-  <proto name="usbhost_connect_state" line="3" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-   basetype="CHAR" baseattr="unsigned,">
-   <var name="hUSB" line="3" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+   <var name="hUSB" line="86" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
     type="AUTO" storage="AUTO VAR" attr="param,"
     basetype="SHORT" baseattr="unsigned,"/>
   </proto>
-  <proto name="get_report_descriptor" line="119" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-   basetype="CHAR" baseattr="unsigned,">
-   <var name="hid_iocb" line="119" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-    type="AUTO" storage="AUTO VAR" attr="param,"
-    basename="_usbHostHID_ioctl_t" basetype="STRUCT" baseattr="ptr,"/>
-   <var name="buf" line="119" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-    type="AUTO" storage="AUTO VAR" attr="param,"
-    basetype="CHAR" baseattr="signed,ptr,"/>
+  <proto name="firmware" line="189" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   basetype="VOID" baseattr="">
   </proto>
-  <proto name="enumerate_device" line="68" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-   basetype="CHAR" baseattr="unsigned,">
-   <var name="hc_iocb_vid_pid" line="68" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+  <proto name="HID_detach" line="147" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   basetype="VOID" baseattr="">
+   <var name="hHID" line="147" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
     type="AUTO" storage="AUTO VAR" attr="param,"
-    basename="_usbhost_ioctl_cb_vid_pid_t" basetype="STRUCT" baseattr="ptr,"/>
+    basetype="SHORT" baseattr="unsigned,"/>
   </proto>
+  <proto name="usbslave_disconnect" line="98" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   basetype="CHAR" baseattr="unsigned,">
+   <var name="hUSB" line="98" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basetype="SHORT" baseattr="unsigned,"/>
+  </proto>
+  <var name="hUSBSLAVE_HID" line="17" file="USBSlaveApp.h"
+   type="AUTO" storage="EXTERN" attr="global,"
+   basetype="SHORT" baseattr="unsigned,"/>
   <proto name="vos_dma_get_fifo_flow_control" line="83" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\dma.h"
    basetype="CHAR" baseattr="unsigned,">
    <var name="h" line="83" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\dma.h"
@@ -938,6 +1163,18 @@
    <var name="size" line="24" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\memmgmt.h"
     type="AUTO" storage="AUTO VAR" attr="param,"
     basetype="SHORT" baseattr="unsigned,"/>
+  </proto>
+  <proto name="get_report" line="19" file="USBHostApp.h"
+   basetype="CHAR" baseattr="unsigned,">
+   <var name="hid_iocb" line="19" file="USBHostApp.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basename="_usbHostHID_ioctl_t" basetype="STRUCT" baseattr="ptr,"/>
+   <var name="buf" line="19" file="USBHostApp.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basetype="CHAR" baseattr="signed,ptr,"/>
+   <var name="len" line="19" file="USBHostApp.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basetype="SHORT" baseattr="unsigned,ptr,"/>
   </proto>
   <proto name="vos_create_thread_ex" line="98" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
    basename="_vos_tcb_t" basetype="STRUCT" baseattr="ptr,">
@@ -1038,6 +1275,12 @@
     type="AUTO" storage="AUTO VAR" attr="param,"
     basetype="CHAR" baseattr="unsigned,ptr,"/>
   </proto>
+  <proto name="init_slave_kbd_driver" line="19" file="USBSlaveApp.h"
+   basetype="CHAR" baseattr="unsigned,">
+   <var name="hc_iocb_vid_pid" line="19" file="USBSlaveApp.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basename="_usbhost_ioctl_cb_vid_pid_t" basetype="STRUCT" baseattr="ptr,"/>
+  </proto>
   <proto name="vos_iomux_define_bidi" line="225" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\iomux.h"
    basetype="CHAR" baseattr="unsigned,">
    <var name="pin" line="225" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\iomux.h"
@@ -1083,6 +1326,9 @@
     type="AUTO" storage="AUTO VAR" attr="param,"
     basetype="CHAR" baseattr="unsigned,"/>
   </proto>
+  <proto name="iomux_setup" line="33" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   basetype="VOID" baseattr="">
+  </proto>
   <proto name="vos_get_chip_revision" line="220" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
    basetype="CHAR" baseattr="unsigned,">
   </proto>
@@ -1091,6 +1337,15 @@
    <var name="l" line="166" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
     type="AUTO" storage="AUTO VAR" attr="param,"
     basename="_vos_semaphore_list_t" basetype="STRUCT" baseattr="ptr,"/>
+  </proto>
+  <proto name="get_report_descriptor" line="18" file="USBHostApp.h"
+   basetype="CHAR" baseattr="unsigned,">
+   <var name="hid_iocb" line="18" file="USBHostApp.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basename="_usbHostHID_ioctl_t" basetype="STRUCT" baseattr="ptr,"/>
+   <var name="buf" line="18" file="USBHostApp.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basetype="CHAR" baseattr="signed,ptr,"/>
   </proto>
   <proto name="vos_enable_interrupts" line="72" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\devman.h"
    basetype="VOID" baseattr="">
@@ -1208,6 +1463,15 @@
    <var name="cb" line="56" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\devman.h"
     type="AUTO" storage="AUTO VAR" attr="param,"
     basetype="VOID" baseattr="ptr,"/>
+  </proto>
+  <proto name="usbslave_init" line="130" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h"
+   basetype="CHAR" baseattr="unsigned,">
+   <var name="s_num" line="130" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <var name="d_num" line="130" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlave.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basetype="CHAR" baseattr="unsigned,"/>
   </proto>
   <proto name="vos_dev_write" line="55" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\devman.h"
    basetype="CHAR" baseattr="unsigned,">
@@ -1341,6 +1605,15 @@
     type="AUTO" storage="AUTO VAR" attr="param,"
     basetype="CHAR" baseattr="unsigned,"/>
   </proto>
+  <proto name="usbSlaveHID_init" line="58" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlaveHID.h"
+   basetype="CHAR" baseattr="unsigned,">
+   <var name="vos_dev_num" line="58" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlaveHID.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <var name="in_ep_size" line="58" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\USBSlaveHID.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basetype="CHAR" baseattr="unsigned,"/>
+  </proto>
   <proto name="vos_dma_acquire" line="74" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\dma.h"
    basetype="SHORT" baseattr="unsigned,">
   </proto>
@@ -1376,6 +1649,12 @@
    <var name="tcb" line="104" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
     type="AUTO" storage="AUTO VAR" attr="param,"
     basename="_vos_tcb_t" basetype="STRUCT" baseattr="ptr,"/>
+  </proto>
+  <proto name="enumerate_device" line="17" file="USBHostApp.h"
+   basetype="CHAR" baseattr="unsigned,">
+   <var name="hc_iocb_vid_pid" line="17" file="USBHostApp.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basename="_usbhost_ioctl_cb_vid_pid_t" basetype="STRUCT" baseattr="ptr,"/>
   </proto>
   <proto name="vos_dma_retained_configure" line="78" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\dma.h"
    basetype="CHAR" baseattr="unsigned,">
@@ -1473,6 +1752,9 @@
     type="AUTO" storage="AUTO VAR" attr="param,"
     basetype="VOID" baseattr="ptr,"/>
   </proto>
+  <var name="hUSBSLAVE_2" line="16" file="USBSlaveApp.h"
+   type="AUTO" storage="EXTERN" attr="global,"
+   basetype="SHORT" baseattr="unsigned,"/>
   <proto name="vos_init" line="52" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
    basetype="VOID" baseattr="">
    <var name="quantum" line="52" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\vos.h"
@@ -1536,6 +1818,15 @@
   <var name="hUSBHOST_HID" line="15" file="USBHostApp.h"
    type="AUTO" storage="EXTERN" attr="global,"
    basetype="SHORT" baseattr="unsigned,"/>
+  <proto name="uart_init" line="117" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\UART.h"
+   basetype="CHAR" baseattr="unsigned,">
+   <var name="devNum" line="115" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\UART.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basetype="CHAR" baseattr="unsigned,"/>
+   <var name="context" line="116" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\drivers\include\UART.h"
+    type="AUTO" storage="AUTO VAR" attr="param,"
+    basename="_uart_context_t" basetype="STRUCT" baseattr="ptr,"/>
+  </proto>
   <proto name="vos_gpio_enable_int" line="128" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\gpioctrl.h"
    basetype="CHAR" baseattr="unsigned,">
    <var name="intNum" line="128" file="C:\ProgramData\FTDI\Vinculum II Toolchain\Firmware\kernel\include\gpioctrl.h"
@@ -1554,141 +1845,170 @@
     type="AUTO" storage="AUTO VAR" attr="param,"
     basename="_vos_cond_var_t" basetype="STRUCT" baseattr="ptr,"/>
   </proto>
- <function name="usbhost_connect_state" line="3" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c" 
-  basetype="CHAR" baseattr="unsigned,">
-  <var name="hUSB" line="3" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-   type="AUTO" storage="AUTO VAR" attr="param,"
+  <var name="hUSBSLAVE_HID" line="28" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   type="AUTO" storage="AUTO VAR" attr="global,"
    basetype="SHORT" baseattr="unsigned,"/>
-  <block line="4" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-    <var name="hc_iocb" line="6" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+  <var name="buf" line="19" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   type="AUTO" storage="AUTO VAR" attr="global,"
+   basetype="CHAR" baseattr="signed," basearray="64,"/>
+  <var name="hUART" line="27" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   type="AUTO" storage="AUTO VAR" attr="global,"
+   basetype="SHORT" baseattr="unsigned,"/>
+  <var name="hUSBHOST_1" line="25" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   type="AUTO" storage="AUTO VAR" attr="global,"
+   basetype="SHORT" baseattr="unsigned,"/>
+  <var name="hUSBSLAVE_2" line="26" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   type="AUTO" storage="AUTO VAR" attr="global,"
+   basetype="SHORT" baseattr="unsigned,"/>
+  <var name="tcbFIRMWARE" line="17" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   type="AUTO" storage="AUTO VAR" attr="global,"
+   basename="_vos_tcb_t" basetype="STRUCT" baseattr="ptr,"/>
+  <var name="hUSBHOST_HID" line="29" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   type="AUTO" storage="AUTO VAR" attr="global,"
+   basetype="SHORT" baseattr="unsigned,"/>
+ <function name="main" line="36" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c" 
+  basetype="VOID" baseattr="">
+  <block line="37" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+    <var name="uartContext" line="40" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
      type="AUTO" storage="AUTO VAR" attr=""
-     basename="_usbhost_ioctl_cb_t" basetype="STRUCT" baseattr=""/>
-    <var name="connectstate" line="5" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+     basename="_uart_context_t" basetype="STRUCT" baseattr=""/>
+    <var name="usbhostContext" line="42" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
      type="AUTO" storage="AUTO VAR" attr=""
-     basetype="CHAR" baseattr="unsigned,"/>
-    <var name="hUSB" line="3" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr="param,"
-     basetype="SHORT" baseattr="unsigned,"/>
-   <block line="8" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-    <block line="15" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-    </block>
-   </block>
+     basename="_usbhost_context_t" basetype="STRUCT" baseattr=""/>
   </block>
  </function>
- <function name="hid_attach" line="23" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c" 
-  basetype="SHORT" baseattr="unsigned,">
-  <var name="hUSB" line="23" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+ <function name="usbslave_connect" line="86" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c" 
+  basetype="CHAR" baseattr="unsigned,">
+  <var name="hUSB" line="86" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
    type="AUTO" storage="AUTO VAR" attr="param,"
    basetype="SHORT" baseattr="unsigned,"/>
-  <var name="devHID" line="23" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+  <block line="87" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+    <var name="ret" line="89" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr=""
+     basetype="CHAR" baseattr="unsigned,"/>
+    <var name="hUSB" line="86" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr="param,"
+     basetype="SHORT" baseattr="unsigned,"/>
+    <var name="iocb" line="88" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr=""
+     basename="_usbslave_ioctl_cb_t" basetype="STRUCT" baseattr=""/>
+  </block>
+ </function>
+ <function name="usbslave_disconnect" line="98" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c" 
+  basetype="CHAR" baseattr="unsigned,">
+  <var name="hUSB" line="98" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   type="AUTO" storage="AUTO VAR" attr="param,"
+   basetype="SHORT" baseattr="unsigned,"/>
+  <block line="99" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+    <var name="ret" line="101" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr=""
+     basetype="CHAR" baseattr="unsigned,"/>
+    <var name="hUSB" line="98" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr="param,"
+     basetype="SHORT" baseattr="unsigned,"/>
+    <var name="iocb" line="100" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr=""
+     basename="_usbslave_ioctl_cb_t" basetype="STRUCT" baseattr=""/>
+  </block>
+ </function>
+ <function name="hid_slave_attach" line="111" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c" 
+  basetype="SHORT" baseattr="unsigned,">
+  <var name="hUSB" line="111" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   type="AUTO" storage="AUTO VAR" attr="param,"
+   basetype="SHORT" baseattr="unsigned,"/>
+  <var name="devSlaveHID" line="111" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
    type="AUTO" storage="AUTO VAR" attr="param,"
    basetype="CHAR" baseattr="unsigned,"/>
-  <block line="24" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-    <var name="hc_iocb" line="26" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr=""
-     basename="_usbhost_ioctl_cb_t" basetype="STRUCT" baseattr=""/>
-    <var name="hUSB" line="23" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr="param,"
-     basetype="SHORT" baseattr="unsigned,"/>
-    <var name="devHID" line="23" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+  <block line="112" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+    <var name="devSlaveHID" line="111" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
      type="AUTO" storage="AUTO VAR" attr="param,"
      basetype="CHAR" baseattr="unsigned,"/>
-    <var name="hid_att" line="29" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+    <var name="hUSB" line="111" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr="param,"
+     basetype="SHORT" baseattr="unsigned,"/>
+    <var name="hid_iocb" line="113" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
      type="AUTO" storage="AUTO VAR" attr=""
-     basename="_usbHostHID_ioctl_cb_attach_t" basetype="STRUCT" baseattr=""/>
-    <var name="ifHID" line="25" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+     basename="_common_ioctl_cb_t" basetype="STRUCT" baseattr=""/>
+    <var name="hSlaveHID" line="114" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
      type="AUTO" storage="AUTO VAR" attr=""
-     basetype="INT" baseattr="signed,"/>
-    <var name="hid_iocb" line="28" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+     basetype="SHORT" baseattr="unsigned,"/>
+   <block line="122" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+   </block>
+  </block>
+ </function>
+ <function name="hid_slave_detach" line="131" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c" 
+  basetype="VOID" baseattr="">
+  <var name="hSlaveHID" line="131" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   type="AUTO" storage="AUTO VAR" attr="param,"
+   basetype="SHORT" baseattr="unsigned,"/>
+  <block line="132" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+    <var name="hid_iocb" line="133" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr=""
+     basename="_common_ioctl_cb_t" basetype="STRUCT" baseattr=""/>
+    <var name="hSlaveHID" line="131" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr="param,"
+     basetype="SHORT" baseattr="unsigned,"/>
+   <block line="135" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+   </block>
+  </block>
+ </function>
+ <function name="HID_detach" line="147" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c" 
+  basetype="VOID" baseattr="">
+  <var name="hHID" line="147" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+   type="AUTO" storage="AUTO VAR" attr="param,"
+   basetype="SHORT" baseattr="unsigned,"/>
+  <block line="148" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+    <var name="hid_iocb" line="149" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
      type="AUTO" storage="AUTO VAR" attr=""
      basename="_usbHostHID_ioctl_t" basetype="STRUCT" baseattr=""/>
-    <var name="hc_iocb_class" line="27" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr=""
-     basename="_usbhost_ioctl_cb_class_t" basetype="STRUCT" baseattr=""/>
-    <var name="hHID" line="30" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr=""
+    <var name="hHID" line="147" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr="param,"
      basetype="SHORT" baseattr="unsigned,"/>
-   <block line="43" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-   </block>
-   <block line="59" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
+   <block line="151" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
    </block>
   </block>
  </function>
- <function name="enumerate_device" line="68" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c" 
-  basetype="CHAR" baseattr="unsigned,">
-  <block line="69" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-    <var name="vid" line="73" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr=""
-     basetype="SHORT" baseattr="unsigned,"/>
-    <var name="hc_iocb_vid_pid" line="68" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr="param,"
-     basename="_usbhost_ioctl_cb_vid_pid_t" basetype="STRUCT" baseattr="ptr,"/>
-    <var name="hc_iocb" line="70" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr=""
-     basename="_usbhost_ioctl_cb_t" basetype="STRUCT" baseattr=""/>
-    <var name="status" line="72" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr=""
-     basetype="CHAR" baseattr="unsigned,"/>
-    <var name="ifDev" line="71" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr=""
-     basetype="VOID" baseattr="ptr,"/>
-    <var name="pid" line="73" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr=""
-     basetype="SHORT" baseattr="unsigned,"/>
-   <block line="75" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-   </block>
-   <block line="86" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-   </block>
-   <block line="99" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-   </block>
+ <function name="open_drivers" line="162" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c" 
+  basetype="VOID" baseattr="">
+  <block line="163" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
   </block>
  </function>
- <function name="get_report_descriptor" line="119" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c" 
-  basetype="CHAR" baseattr="unsigned,">
-  <block line="120" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-    <var name="status" line="121" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr=""
-     basetype="CHAR" baseattr="unsigned,"/>
-    <var name="hid_iocb" line="119" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr="param,"
-     basename="_usbHostHID_ioctl_t" basetype="STRUCT" baseattr="ptr,"/>
-    <var name="buf" line="119" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr="param,"
-     basetype="CHAR" baseattr="signed,ptr,"/>
-   <block line="131" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-   </block>
-   <block line="146" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-   </block>
-   <block line="159" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-   </block>
-   <block line="170" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-   </block>
+ <function name="attach_drivers" line="171" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c" 
+  basetype="VOID" baseattr="">
+  <block line="177" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
   </block>
  </function>
- <function name="get_report" line="181" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c" 
-  basetype="CHAR" baseattr="unsigned,">
-  <block line="182" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-    <var name="num_read" line="185" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+ <function name="close_drivers" line="179" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c" 
+  basetype="VOID" baseattr="">
+  <block line="180" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+  </block>
+ </function>
+ <function name="firmware" line="189" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c" 
+  basetype="VOID" baseattr="">
+  <block line="190" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+    <var name="hc_iocb_vid_pid" line="193" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
      type="AUTO" storage="AUTO VAR" attr=""
-     basetype="SHORT" baseattr="unsigned,"/>
-    <var name="status" line="183" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr=""
-     basetype="CHAR" baseattr="unsigned,"/>
-    <var name="hid_iocb" line="181" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr="param,"
-     basename="_usbHostHID_ioctl_t" basetype="STRUCT" baseattr="ptr,"/>
-    <var name="reportLen" line="186" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr=""
-     basetype="SHORT" baseattr="unsigned,"/>
-    <var name="byteCount" line="184" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
+     basename="_usbhost_ioctl_cb_vid_pid_t" basetype="STRUCT" baseattr=""/>
+    <var name="status" line="199" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
      type="AUTO" storage="AUTO VAR" attr=""
      basetype="CHAR" baseattr="unsigned,"/>
-    <var name="buf" line="181" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c"
-     type="AUTO" storage="AUTO VAR" attr="param,"
-     basetype="CHAR" baseattr="signed,ptr,"/>
-   <block line="192" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
-   </block>
-   <block line="197" file="C:\Users\Amaya\Documents\FTDI\Firmware\Samples\V2.0.2-SP2\test\keylogger\USBHostApp.c">
+    <var name="num_xfer" line="196" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr=""
+     basetype="SHORT" baseattr="unsigned,"/>
+    <var name="hid_iocb" line="194" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr=""
+     basename="_usbHostHID_ioctl_t" basetype="STRUCT" baseattr=""/>
+    <var name="uart_iocb" line="192" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr=""
+     basename="_common_ioctl_cb_t" basetype="STRUCT" baseattr=""/>
+    <var name="len" line="197" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c"
+     type="AUTO" storage="AUTO VAR" attr=""
+     basetype="SHORT" baseattr="unsigned,"/>
+   <block line="211" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+    <block line="216" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+     <block line="224" file="C:\Users\Amaya\Documents\GitHub\USBHID_MiTM\keylogger.c">
+     </block>
+    </block>
    </block>
   </block>
  </function>

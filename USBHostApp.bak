@@ -16,6 +16,6 @@ extern VOS_HANDLE hUSBHOST_HID;
 
 unsigned char enumerate_device(usbhost_ioctl_cb_vid_pid_t *hc_iocb_vid_pid);
 unsigned char get_report_descriptor(usbHostHID_ioctl_t* hid_iocb, char* buf);
-unsigned char get_report(usbHostHID_ioctl_t* hid_iocb, char* buf);
+unsigned char get_report(usbHostHID_ioctl_t* hid_iocb, char* buf, unsigned short *len);
 
 #endif /* _USBHostApp_H_ */

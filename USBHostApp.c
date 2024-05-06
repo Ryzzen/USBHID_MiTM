@@ -121,7 +121,7 @@ unsigned char get_report_descriptor(usbHostHID_ioctl_t* hid_iocb, char* buf)
 	unsigned char status;
 	
 	// get report descriptor
-	desc:
+	usb_desc:
 		hid_iocb->descriptorType = USB_DESCRIPTOR_TYPE_REPORT;
 		hid_iocb->descriptorIndex = USB_HID_DESCRIPTOR_INDEX_ZERO;
 		hid_iocb->Length = 0x40;
@@ -134,10 +134,10 @@ unsigned char get_report_descriptor(usbHostHID_ioctl_t* hid_iocb, char* buf)
 			number(status);
 			message("\r\n");
 			vos_delay_msecs(500);
-			goto desc;
-			return status;
+			goto usb_desc;
+			//return status;
 		}
-	
+		
 	// set idle
 	hid_iocb->reportID = USB_HID_REPORT_ID_ZERO;
 	hid_iocb->idleDuration = 0x20;
@@ -178,7 +178,7 @@ unsigned char get_report_descriptor(usbHostHID_ioctl_t* hid_iocb, char* buf)
 	return status;
 }
 	
-unsigned char get_report(usbHostHID_ioctl_t* hid_iocb, char* buf)
+unsigned char get_report(usbHostHID_ioctl_t* hid_iocb, char* buf, unsigned short *len)
 {
 	unsigned char status;
 	unsigned char byteCount;
@@ -190,11 +190,13 @@ unsigned char get_report(usbHostHID_ioctl_t* hid_iocb, char* buf)
 	
 	status = vos_dev_read(hUSBHOST_HID, buf, reportLen, &num_read);
 	if (status == USBHOSTHID_OK) {
+		*len = num_read;
 		message("Report: ");
 		for (byteCount = 0; byteCount < num_read; byteCount++)
 			number(buf[byteCount]);
 		message("\r\n");
 	} else {
+		*len = 0;
 		message("USB Read Failed - code ");
 		number(status);
 		message("\r\n");

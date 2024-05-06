@@ -567,7 +567,7 @@ SP_DEC	$6
 SP_RD16	%ecx	$26
 SP_RD16	%ecx	$28
 @ICO0:	
-@fl4desc:	
+@fl4usb_desc:	
 SP_STORE	%r0
 INC16	%r0	$26
 CPY16	%r1	(%r0)
@@ -618,16 +618,7 @@ CALL	vos_delay_msecs
 POP8	%eax
 SP_WR8	%eax	$3
 SP_INC	$2
-JUMP	@fl4desc
-SP_STORE	%eax
-INC16	%eax	$25
-CPY8	(%eax)	%r0
-SP_INC	$6
-POP32	%r3
-POP32	%r2
-POP32	%r1
-POP32	%r0
-RTS	
+JUMP	@fl4usb_desc
 @IC24:	
 SP_STORE	%r1
 INC16	%r1	$26
@@ -799,6 +790,9 @@ SP_RD8	%ecx	$2
 CMP8	%ecx	$0
 JNZ	@IC41
 @IC42:	
+SP_RD16	%ecx	$27
+SP_STORE	%eax
+CPY16	(%ecx)	(%eax)
 LD32	%r1	$Str@16
 PUSH16	%r1
 CALL	message
@@ -828,6 +822,8 @@ CALL	message
 SP_INC	$2
 JUMP	@IC40
 @IC41:	
+SP_RD16	%ecx	$27
+LD16	(%ecx)	$0
 LD32	%r3	$Str@18
 PUSH16	%r3
 CALL	message

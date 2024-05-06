@@ -8,6 +8,8 @@
 #include "USBSlaveHIDKbd.h"
 #include "USBHost.h"
 
+#include "message.h"
+
 #define VOS_DEV_USBSLAVE_2 1
 #define VOS_DEV_USBSLAVE_HID 3
 
