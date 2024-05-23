@@ -1,0 +1,2173 @@
+Archive member included to satisfy reference by file (symbol)
+
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-printf.o)
+                              ./build/./app/main.c.o (printf)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-puts.o)
+                              ./build/./app/main.c.o (puts)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wbuf.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-puts.o) (__swbuf_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wsetup.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-puts.o) (__swsetup_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-impure.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-printf.o) (_impure_ptr)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-puts.o) (__retarget_lock_acquire_recursive)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-freer.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wsetup.o) (_free_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mallocr.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-freer.o) (__malloc_free_list)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mlock.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-freer.o) (__malloc_lock)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-printf.o) (_vfprintf_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf_i.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o) (_printf_i)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fflush.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wbuf.o) (_fflush_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fflush.o) (__sglue)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fvwrite.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o) (__sfvwrite_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fwalk.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fflush.o) (_fwalk_sglue)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-makebuf.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wsetup.o) (__smakebuf_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o) (__sread)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memchr.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o) (memchr)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-closer.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o) (_close_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reent.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-closer.o) (errno)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fstatr.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-makebuf.o) (_fstat_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-isattyr.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-makebuf.o) (_isatty_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lseekr.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o) (_lseek_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-readr.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o) (_read_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-sbrkr.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mallocr.o) (_sbrk_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-writer.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o) (_write_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memmove.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fvwrite.o) (memmove)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memset.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o) (memset)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memcpy-asm.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fvwrite.o) (memcpy)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reallocr.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fvwrite.o) (_realloc_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-msizer.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reallocr.o) (_malloc_usable_size_r)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(close.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-closer.o) (_close)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(fstat.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fstatr.o) (_fstat)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(isatty.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-isattyr.o) (_isatty)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(lseek.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lseekr.o) (_lseek)
+/nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(read.o)
+                              /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-readr.o) (_read)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./build/./app/main.c.o
+ .data          0x00000000        0x0 ./build/./app/main.c.o
+ .bss           0x00000000        0x0 ./build/./app/main.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Core/core_riscv.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Core/core_riscv.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_MSTATUS
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__set_MSTATUS
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_MISA
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__set_MISA
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_MIE
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__set_MIE
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_MTVEC
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__set_MTVEC
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_MSCRATCH
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__set_MSCRATCH
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_MEPC
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__set_MEPC
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_MCAUSE
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__set_MCAUSE
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_MTVAL
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__set_MTVAL
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_MVENDORID
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_MARCHID
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_MIMPID
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_MHARTID
+                0x00000000        0x6 ./build/./vendor/Core/core_riscv.c.o
+ .text.__get_SP
+                0x00000000        0x4 ./build/./vendor/Core/core_riscv.c.o
+ .debug_info    0x00000000      0x37e ./build/./vendor/Core/core_riscv.c.o
+ .debug_abbrev  0x00000000       0xe7 ./build/./vendor/Core/core_riscv.c.o
+ .debug_aranges
+                0x00000000       0xc0 ./build/./vendor/Core/core_riscv.c.o
+ .debug_rnglists
+                0x00000000       0x8b ./build/./vendor/Core/core_riscv.c.o
+ .debug_line    0x00000000      0x3da ./build/./vendor/Core/core_riscv.c.o
+ .debug_str     0x00000000      0x270 ./build/./vendor/Core/core_riscv.c.o
+ .debug_line_str
+                0x00000000      0x17c ./build/./vendor/Core/core_riscv.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Core/core_riscv.c.o
+ .debug_frame   0x00000000      0x160 ./build/./vendor/Core/core_riscv.c.o
+ .riscv.attributes
+                0x00000000       0x46 ./build/./vendor/Core/core_riscv.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Debug/debug.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Debug/debug.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Debug/debug.c.o
+ .text.Delay_Us
+                0x00000000       0x3a ./build/./vendor/Debug/debug.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text.BKP_DeInit
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text.BKP_TamperPinLevelConfig
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text.BKP_TamperPinCmd
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text.BKP_ITConfig
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text.BKP_RTCOutputConfig
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text.BKP_SetRTCCalibrationValue
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text.BKP_WriteBackupRegister
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text.BKP_ReadBackupRegister
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text.BKP_GetFlagStatus
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text.BKP_ClearFlag
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text.BKP_GetITStatus
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text.BKP_ClearITPendingBit
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .debug_info    0x00000000      0x6f5 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .debug_abbrev  0x00000000      0x1ad ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .debug_loclists
+                0x00000000       0x7e ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .debug_aranges
+                0x00000000       0x78 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .debug_rnglists
+                0x00000000       0x55 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .debug_line    0x00000000      0x473 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .debug_str     0x00000000      0x664 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .debug_line_str
+                0x00000000      0x1e3 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .debug_frame   0x00000000       0xec ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_DeInit
+                0x00000000       0x44 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_Init
+                0x00000000      0x11c ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_StructInit
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_Cmd  0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_DMACmd
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_DMALastTransferCmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_GenerateSTART
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_GenerateSTOP
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_AcknowledgeConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_OwnAddress2Config
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_DualAddressCmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_GeneralCallCmd
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_ITConfig
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_SendData
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_ReceiveData
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_Send7bitAddress
+                0x00000000       0x10 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_ReadRegister
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_SoftwareResetCmd
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_NACKPositionConfig
+                0x00000000       0x22 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_SMBusAlertConfig
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_TransmitPEC
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_PECPositionConfig
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_CalculatePEC
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_GetPEC
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_ARPCmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_StretchClockCmd
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_FastModeDutyCycleConfig
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_CheckEvent
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_GetLastEvent
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_GetFlagStatus
+                0x00000000       0x32 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_ClearFlag
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_GetITStatus
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text.I2C_ClearITPendingBit
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .debug_info    0x00000000      0xb10 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .debug_abbrev  0x00000000      0x28d ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .debug_loclists
+                0x00000000      0x51d ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .debug_aranges
+                0x00000000      0x120 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .debug_rnglists
+                0x00000000       0xd4 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .debug_line    0x00000000      0xf89 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .debug_str     0x00000000      0x69f ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .debug_line_str
+                0x00000000      0x1f2 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .debug_frame   0x00000000      0x264 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_DeInit
+                0x00000000       0x24 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_BackupAccessCmd
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_PVDCmd
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_PVDLevelConfig
+                0x00000000       0x10 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_WakeUpPinCmd
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_EnterSTOPMode
+                0x00000000       0x66 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_EnterSTANDBYMode
+                0x00000000       0x30 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_GetFlagStatus
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_ClearFlag
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_EnterSTANDBYMode_RAM
+                0x00000000       0x2a ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_EnterSTANDBYMode_RAM_LV
+                0x00000000       0x2c ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_EnterSTANDBYMode_RAM_VBAT_EN
+                0x00000000       0x2c ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_EnterSTANDBYMode_RAM_LV_VBAT_EN
+                0x00000000       0x2c ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text.PWR_EnterSTOPMode_RAM_LV
+                0x00000000       0x6c ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .debug_info    0x00000000      0x684 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .debug_abbrev  0x00000000      0x28a ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .debug_loclists
+                0x00000000      0x16a ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .debug_aranges
+                0x00000000       0x88 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .debug_rnglists
+                0x00000000       0x79 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .debug_line    0x00000000      0x904 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .debug_str     0x00000000      0x40c ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .debug_line_str
+                0x00000000      0x1e3 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .debug_frame   0x00000000       0xfc ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .riscv.attributes
+                0x00000000       0x46 ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .text.IWDG_WriteAccessCmd
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .text.IWDG_SetPrescaler
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .text.IWDG_SetReload
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .text.IWDG_ReloadCounter
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .text.IWDG_Enable
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .text.IWDG_GetFlagStatus
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .debug_info    0x00000000      0x1ef ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .debug_abbrev  0x00000000      0x138 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .debug_loclists
+                0x00000000       0x5e ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .debug_aranges
+                0x00000000       0x48 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .debug_rnglists
+                0x00000000       0x31 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .debug_line    0x00000000      0x17c ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .debug_str     0x00000000      0x25d ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .debug_line_str
+                0x00000000      0x1d7 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .debug_frame   0x00000000       0x70 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .text.DBGMCU_GetREVID
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .text.DBGMCU_GetDEVID
+                0x00000000       0x10 ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .debug_info    0x00000000       0xb4 ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .debug_abbrev  0x00000000       0x56 ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .debug_aranges
+                0x00000000       0x28 ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .debug_rnglists
+                0x00000000       0x19 ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .debug_line    0x00000000       0xaa ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .debug_str     0x00000000      0x182 ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .debug_line_str
+                0x00000000      0x19f ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .debug_frame   0x00000000       0x30 ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .text.NVIC_Init
+                0x00000000       0xba ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_ITConfig
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_EnterConfigMode
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_ExitConfigMode
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_GetCounter
+                0x00000000       0x3a ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_SetCounter
+                0x00000000       0x32 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_SetPrescaler
+                0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_SetAlarm
+                0x00000000       0x32 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_GetDivider
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_WaitForLastTask
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_WaitForSynchro
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_GetFlagStatus
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_ClearFlag
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_GetITStatus
+                0x00000000       0x24 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text.RTC_ClearITPendingBit
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .debug_info    0x00000000      0x44c ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .debug_abbrev  0x00000000      0x187 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .debug_loclists
+                0x00000000      0x1cb ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .debug_aranges
+                0x00000000       0x88 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .debug_rnglists
+                0x00000000       0x61 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .debug_line    0x00000000      0x5bc ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .debug_str     0x00000000      0x3ab ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .debug_line_str
+                0x00000000      0x1d4 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .debug_frame   0x00000000      0x120 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .text.DMA_DeInit
+                0x00000000       0xb8 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .text.DMA_Init
+                0x00000000       0x38 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .text.DMA_StructInit
+                0x00000000       0x2e ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .text.DMA_Cmd  0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .text.DMA_ITConfig
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .text.DMA_SetCurrDataCounter
+                0x00000000        0x4 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .text.DMA_GetCurrDataCounter
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .text.DMA_GetFlagStatus
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .text.DMA_ClearFlag
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .text.DMA_GetITStatus
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .text.DMA_ClearITPendingBit
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .debug_info    0x00000000      0x418 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .debug_abbrev  0x00000000      0x1f0 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .debug_loclists
+                0x00000000       0xe3 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .debug_aranges
+                0x00000000       0x70 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .debug_rnglists
+                0x00000000       0x50 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .debug_line    0x00000000      0x5dc ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .debug_str     0x00000000      0x3b2 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .debug_line_str
+                0x00000000      0x1e3 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .debug_frame   0x00000000       0xc0 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TI1_Config
+                0x00000000       0x78 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TI2_Config
+                0x00000000       0x90 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_DeInit
+                0x00000000       0xb8 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_TimeBaseInit
+                0x00000000       0x76 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC1Init
+                0x00000000       0x84 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC2Init
+                0x00000000       0xae ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC3Init
+                0x00000000       0xac ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC4Init
+                0x00000000       0x80 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_BDTRConfig
+                0x00000000       0x2e ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_TimeBaseStructInit
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OCStructInit
+                0x00000000       0x22 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ICStructInit
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_BDTRStructInit
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_Cmd  0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_CtrlPWMOutputs
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ITConfig
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_GenerateEvent
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_DMAConfig
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_DMACmd
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_InternalClockConfig
+                0x00000000       0x10 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ITRxExternalClockConfig
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_TIxExternalClockConfig
+                0x00000000       0x52 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ETRConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ETRClockMode1Config
+                0x00000000       0x2c ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ETRClockMode2Config
+                0x00000000       0x24 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_PrescalerConfig
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_CounterModeConfig
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SelectInputTrigger
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_EncoderInterfaceConfig
+                0x00000000       0x44 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ForcedOC1Config
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ForcedOC2Config
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ForcedOC3Config
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ForcedOC4Config
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ARRPreloadConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SelectCOM
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SelectCCDMA
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_CCPreloadControl
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC1PreloadConfig
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC2PreloadConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC3PreloadConfig
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC4PreloadConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC1FastConfig
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC2FastConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC3FastConfig
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC4FastConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ClearOC1Ref
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ClearOC2Ref
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ClearOC3Ref
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ClearOC4Ref
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC1PolarityConfig
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC1NPolarityConfig
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC2PolarityConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC2NPolarityConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC3PolarityConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC3NPolarityConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_OC4PolarityConfig
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_CCxCmd
+                0x00000000       0x28 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_CCxNCmd
+                0x00000000       0x28 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SelectOCxM
+                0x00000000       0x50 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_UpdateDisableConfig
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_UpdateRequestConfig
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SelectHallSensor
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SelectOnePulseMode
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SelectOutputTrigger
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SelectSlaveMode
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SelectMasterSlaveMode
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SetCounter
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SetAutoreload
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SetCompare1
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SetCompare2
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SetCompare3
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SetCompare4
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SetIC1Prescaler
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SetIC2Prescaler
+                0x00000000       0x22 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_PWMIConfig
+                0x00000000       0xb4 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SetIC3Prescaler
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SetIC4Prescaler
+                0x00000000       0x22 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ICInit
+                0x00000000      0x1b8 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_SetClockDivision
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_GetCapture1
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_GetCapture2
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_GetCapture3
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_GetCapture4
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_GetCounter
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_GetPrescaler
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_GetFlagStatus
+                0x00000000        0xc ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ClearFlag
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_GetITStatus
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text.TIM_ClearITPendingBit
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .debug_info    0x00000000     0x1f47 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .debug_abbrev  0x00000000      0x347 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .debug_loclists
+                0x00000000      0xf92 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .debug_aranges
+                0x00000000      0x2e0 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .debug_rnglists
+                0x00000000      0x249 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .debug_line    0x00000000     0x2fcf ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .debug_str     0x00000000      0xe3a ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .debug_line_str
+                0x00000000      0x1f2 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .debug_frame   0x00000000      0x660 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .text.EXTI_DeInit
+                0x00000000       0x22 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .text.EXTI_Init
+                0x00000000       0x62 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .text.EXTI_StructInit
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .text.EXTI_GenerateSWInterrupt
+                0x00000000       0x10 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .text.EXTI_GetFlagStatus
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .text.EXTI_ClearFlag
+                0x00000000        0xc ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .text.EXTI_GetITStatus
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .text.EXTI_ClearITPendingBit
+                0x00000000        0xc ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .debug_info    0x00000000      0x332 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .debug_abbrev  0x00000000      0x1ad ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .debug_loclists
+                0x00000000       0xda ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .debug_aranges
+                0x00000000       0x58 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .debug_rnglists
+                0x00000000       0x3d ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .debug_line    0x00000000      0x400 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .debug_str     0x00000000      0x34b ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .debug_line_str
+                0x00000000      0x1e7 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .debug_frame   0x00000000       0x90 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .text.WWDG_DeInit
+                0x00000000       0x28 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .text.WWDG_SetPrescaler
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .text.WWDG_SetWindowValue
+                0x00000000       0x26 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .text.WWDG_EnableIT
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .text.WWDG_SetCounter
+                0x00000000       0x10 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .text.WWDG_Enable
+                0x00000000       0x10 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .text.WWDG_GetFlagStatus
+                0x00000000        0xc ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .text.WWDG_ClearFlag
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .debug_info    0x00000000      0x269 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .debug_abbrev  0x00000000      0x187 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .debug_loclists
+                0x00000000       0x68 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .debug_aranges
+                0x00000000       0x58 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .debug_rnglists
+                0x00000000       0x3d ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .debug_line    0x00000000      0x2c1 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .debug_str     0x00000000      0x280 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .debug_line_str
+                0x00000000      0x1e6 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .debug_frame   0x00000000       0xa4 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_I2S_DeInit
+                0x00000000       0x56 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_Init
+                0x00000000       0x5a ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.I2S_Init
+                0x00000000       0xda ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_StructInit
+                0x00000000       0x24 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.I2S_StructInit
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_Cmd  0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.I2S_Cmd  0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_I2S_ITConfig
+                0x00000000       0x22 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_I2S_DMACmd
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_I2S_SendData
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_I2S_ReceiveData
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_NSSInternalSoftwareConfig
+                0x00000000       0x26 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_SSOutputCmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_DataSizeConfig
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_TransmitCRC
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_CalculateCRC
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_GetCRC
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_GetCRCPolynomial
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_BiDirectionalLineConfig
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_I2S_GetFlagStatus
+                0x00000000        0xc ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_I2S_ClearFlag
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_I2S_GetITStatus
+                0x00000000       0x2e ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text.SPI_I2S_ClearITPendingBit
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .debug_info    0x00000000      0x978 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .debug_abbrev  0x00000000      0x22b ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .debug_loclists
+                0x00000000      0x44d ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .debug_aranges
+                0x00000000       0xd0 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .debug_rnglists
+                0x00000000       0x98 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .debug_line    0x00000000      0xb91 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .debug_str     0x00000000      0x64e ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .debug_line_str
+                0x00000000      0x1f2 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .debug_frame   0x00000000      0x1bc ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .text.CRC_ResetDR
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .text.CRC_CalcCRC
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .text.CRC_CalcBlockCRC
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .text.CRC_GetCRC
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .text.CRC_SetIDRegister
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .text.CRC_GetIDRegister
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .debug_info    0x00000000      0x1ed ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .debug_abbrev  0x00000000      0x11e ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .debug_loclists
+                0x00000000       0x5d ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .debug_aranges
+                0x00000000       0x48 ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .debug_rnglists
+                0x00000000       0x31 ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .debug_line    0x00000000      0x1cb ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .debug_str     0x00000000      0x23a ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .debug_line_str
+                0x00000000      0x1b9 ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .debug_frame   0x00000000       0x70 ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_DeInit
+                0x00000000       0xa2 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_StructInit
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_ClockInit
+                0x00000000       0x2a ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_ClockStructInit
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_ITConfig
+                0x00000000       0x38 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_DMACmd
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_SetAddress
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_WakeUpConfig
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_ReceiverWakeUpCmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_LINBreakDetectLengthConfig
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_LINCmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_ReceiveData
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_SendBreak
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_SetGuardTime
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_SetPrescaler
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_SmartCardCmd
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_SmartCardNACKCmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_HalfDuplexCmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_OverSampling8Cmd
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_OneBitMethodCmd
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_IrDAConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_IrDACmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_ClearFlag
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_GetITStatus
+                0x00000000       0x46 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text.USART_ClearITPendingBit
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_DeInit
+                0x00000000       0x58 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_Init
+                0x00000000       0x58 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_StructInit
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_Cmd  0x00000000       0x10 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_DMACmd
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_ITConfig
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_ResetCalibration
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_GetResetCalibrationStatus
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_StartCalibration
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_GetCalibrationStatus
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_SoftwareStartConvCmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_GetSoftwareStartConvStatus
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_DiscModeChannelCountConfig
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_DiscModeCmd
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_RegularChannelConfig
+                0x00000000       0xb8 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_ExternalTrigConvCmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_GetConversionValue
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_GetDualModeConversionValue
+                0x00000000        0xc ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_AutoInjectedConvCmd
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_InjectedDiscModeCmd
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_ExternalTrigInjectedConvConfig
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_ExternalTrigInjectedConvCmd
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_SoftwareStartInjectedConvCmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_GetSoftwareStartInjectedConvCmdStatus
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_InjectedChannelConfig
+                0x00000000       0x7a ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_InjectedSequencerLengthConfig
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_SetInjectedOffset
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_GetInjectedConversionValue
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_AnalogWatchdogCmd
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_AnalogWatchdogThresholdsConfig
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_AnalogWatchdogSingleChannelConfig
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_TempSensorVrefintCmd
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_GetFlagStatus
+                0x00000000        0xc ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_ClearFlag
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_GetITStatus
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_ClearITPendingBit
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.TempSensor_Volt_To_Temper
+                0x00000000       0x2a ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.ADC_BufferCmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text.Get_CalibrationValue
+                0x00000000      0x282 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .debug_info    0x00000000      0xd81 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .debug_abbrev  0x00000000      0x26d ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .debug_loclists
+                0x00000000      0x739 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .debug_aranges
+                0x00000000      0x150 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .debug_rnglists
+                0x00000000       0xf9 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .debug_line    0x00000000     0x1826 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .debug_str     0x00000000      0x7d6 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .debug_line_str
+                0x00000000      0x1f2 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .debug_frame   0x00000000      0x2bc ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_DeInit
+                0x00000000       0xae ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_AFIODeInit
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_StructInit
+                0x00000000       0x10 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_ReadInputDataBit
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_SetBits
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_ResetBits
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_Write
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_EventOutputConfig
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_EventOutputCmd
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_PinRemapConfig
+                0x00000000       0xb6 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_EXTILineConfig
+                0x00000000       0x38 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text.GPIO_ETH_MediaInterfaceConfig
+                0x00000000       0x24 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_DeInit
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_HSEConfig
+                0x00000000       0x3c ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_HSICmd
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_PLLConfig
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_PLLCmd
+                0x00000000       0x24 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_SYSCLKConfig
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x10 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x10 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_ITConfig
+                0x00000000       0x1c ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_USBCLKConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_ADCCLKConfig
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_LSEConfig
+                0x00000000       0x2c ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_LSICmd
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_RTCCLKConfig
+                0x00000000        0xc ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_AHBPeriphClockCmd
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_APB1PeriphClockCmd
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x20 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x24 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_MCOConfig
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0x2e ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x3c ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_ClearFlag
+                0x00000000       0x10 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_GetITStatus
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_ClearITPendingBit
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_ADCCLKADJcmd
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text.RCC_ETHDIVConfig
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_DeInit
+                0x00000000       0x44 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_Init
+                0x00000000       0xf2 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_FilterInit
+                0x00000000      0x122 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_StructInit
+                0x00000000       0x26 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_SlaveStartBank
+                0x00000000       0x2c ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_DBGFreeze
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_TTComModeCmd
+                0x00000000       0x4a ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_Transmit
+                0x00000000       0xc8 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_TransmitStatus
+                0x00000000       0x68 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_CancelTransmit
+                0x00000000       0x28 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_Receive
+                0x00000000       0x92 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_FIFORelease
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_MessagePending
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_OperatingModeRequest
+                0x00000000       0x72 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_Sleep
+                0x00000000       0x16 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_WakeUp
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_GetLastErrorCode
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_GetReceiveErrorCounter
+                0x00000000        0x6 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_GetLSBTransmitErrorCounter
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_ITConfig
+                0x00000000       0x14 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_GetFlagStatus
+                0x00000000       0x46 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_ClearFlag
+                0x00000000       0x40 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_GetITStatus
+                0x00000000       0xce ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text.CAN_ClearITPendingBit
+                0x00000000       0x98 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .debug_info    0x00000000      0xe25 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .debug_abbrev  0x00000000      0x317 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .debug_loclists
+                0x00000000      0x5a4 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .debug_aranges
+                0x00000000       0xd8 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .debug_rnglists
+                0x00000000       0xd6 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .debug_line    0x00000000     0x1a2f ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .debug_str     0x00000000      0x77a ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .debug_line_str
+                0x00000000      0x1f2 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .debug_frame   0x00000000      0x1a0 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .text.OPA_DeInit
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .text.OPA_Init
+                0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .text.OPA_StructInit
+                0x00000000       0x12 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .text.OPA_Cmd  0x00000000       0x26 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .debug_info    0x00000000      0x25b ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .debug_abbrev  0x00000000      0x122 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .debug_loclists
+                0x00000000       0x40 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .debug_aranges
+                0x00000000       0x38 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .debug_rnglists
+                0x00000000       0x25 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .debug_line    0x00000000      0x235 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .debug_str     0x00000000      0x27a ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .debug_line_str
+                0x00000000      0x1e3 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .debug_frame   0x00000000       0x50 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .data          0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_Unlock
+                0x00000000       0x1a ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_UnlockBank1
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_Lock
+                0x00000000        0xe ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_LockBank1
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_GetUserOptionByte
+                0x00000000        0xa ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_GetWriteProtectionOptionByte
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_GetReadOutProtectionStatus
+                0x00000000        0xc ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_ITConfig
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_GetFlagStatus
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_ClearFlag
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_GetStatus
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_GetBank1Status
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_WaitForLastOperation
+                0x00000000       0x36 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_ErasePage
+                0x00000000       0x4e ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_EraseAllPages
+                0x00000000       0x46 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_EraseAllBank1Pages
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_EraseOptionBytes
+                0x00000000       0xf0 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_ProgramWord
+                0x00000000       0x70 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_ProgramHalfWord
+                0x00000000       0x4a ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_ProgramOptionByteData
+                0x00000000      0x122 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_EnableWriteProtection
+                0x00000000      0x124 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_ReadOutProtection
+                0x00000000      0x108 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_UserOptionByteConfig
+                0x00000000      0x114 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_WaitForLastBank1Operation
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_Unlock_Fast
+                0x00000000       0x1e ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_Lock_Fast
+                0x00000000        0x8 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_ErasePage_Fast
+                0x00000000       0x2e ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_EraseBlock_32K_Fast
+                0x00000000       0x30 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_EraseBlock_64K_Fast
+                0x00000000       0x30 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_ProgramPage_Fast
+                0x00000000       0x64 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_Access_Clock_Cfg
+                0x00000000       0x18 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_Enhance_Mode
+                0x00000000       0x2e ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text.FLASH_GetMACAddress
+                0x00000000       0x3a ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .debug_info    0x00000000      0xa50 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .debug_abbrev  0x00000000      0x32a ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .debug_loclists
+                0x00000000      0x52c ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .debug_aranges
+                0x00000000      0x120 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .debug_rnglists
+                0x00000000       0xd8 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .debug_line    0x00000000     0x1c41 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .debug_str     0x00000000      0x652 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .debug_line_str
+                0x00000000      0x1eb ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .comment       0x00000000       0x34 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .debug_frame   0x00000000      0x308 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .riscv.attributes
+                0x00000000       0x42 ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+ .text          0x00000000        0x0 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+ .data          0x00000000        0x0 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+ .bss           0x00000000        0x0 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+ .text          0x00000000        0x0 ./build/./vendor/User/system_ch32v20x.c.o
+ .data          0x00000000        0x0 ./build/./vendor/User/system_ch32v20x.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/User/system_ch32v20x.c.o
+ .text          0x00000000        0x0 ./build/./vendor/User/ch32v20x_it.c.o
+ .data          0x00000000        0x0 ./build/./vendor/User/ch32v20x_it.c.o
+ .bss           0x00000000        0x0 ./build/./vendor/User/ch32v20x_it.c.o
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-printf.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-printf.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-printf.o)
+ .text._printf_r
+                0x00000000       0x26 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-printf.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-puts.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-puts.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-puts.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wbuf.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wbuf.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wbuf.o)
+ .text.__swbuf  0x00000000       0x14 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wbuf.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wsetup.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wsetup.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wsetup.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-impure.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-impure.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .sbss.__lock___arc4random_mutex
+                0x00000000        0x1 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .sbss.__lock___dd_hash_mutex
+                0x00000000        0x1 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .sbss.__lock___tz_mutex
+                0x00000000        0x1 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .sbss.__lock___env_recursive_mutex
+                0x00000000        0x1 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .sbss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .sbss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-freer.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-freer.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mallocr.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mallocr.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mlock.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x00000000       0x28 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x00000000       0x16 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fflush.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fflush.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fflush.o)
+ .text.fflush   0x00000000       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fflush.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x2a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x2a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .text.__sfp    0x00000000       0xf2 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x2a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x2a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fvwrite.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fvwrite.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x00000000      0x2fe /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fvwrite.o)
+ .comment       0x00000000       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fvwrite.o)
+ .riscv.attributes
+                0x00000000       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fvwrite.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fwalk.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fwalk.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fwalk.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-makebuf.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-makebuf.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-makebuf.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memchr.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memchr.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memchr.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-closer.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-closer.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-closer.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reent.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reent.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xfc /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reent.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fstatr.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fstatr.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fstatr.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-isattyr.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-isattyr.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-isattyr.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lseekr.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lseekr.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lseekr.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-readr.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-readr.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-readr.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-sbrkr.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-sbrkr.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-writer.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-writer.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-writer.o)
+ .text          0x00000000       0x26 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memmove.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memmove.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memmove.o)
+ .riscv.attributes
+                0x00000000       0x40 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memmove.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memset.o)
+ .text          0x00000000       0x16 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memcpy-asm.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memcpy-asm.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memcpy-asm.o)
+ .riscv.attributes
+                0x00000000       0x40 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memcpy-asm.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reallocr.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reallocr.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reallocr.o)
+ .text._realloc_r
+                0x00000000       0x98 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reallocr.o)
+ .comment       0x00000000       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reallocr.o)
+ .riscv.attributes
+                0x00000000       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reallocr.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-msizer.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-msizer.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-msizer.o)
+ .text._malloc_usable_size_r
+                0x00000000       0x14 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-msizer.o)
+ .comment       0x00000000       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-msizer.o)
+ .riscv.attributes
+                0x00000000       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-msizer.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(close.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(close.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(close.o)
+ .gnu.warning._close
+                0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(close.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(fstat.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(fstat.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(fstat.o)
+ .gnu.warning._fstat
+                0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(fstat.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(isatty.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(isatty.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(isatty.o)
+ .gnu.warning._isatty
+                0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(isatty.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(lseek.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(lseek.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(lseek.o)
+ .gnu.warning._lseek
+                0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(lseek.o)
+ .text          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(read.o)
+ .data          0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(read.o)
+ .bss           0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(read.o)
+ .gnu.warning._read
+                0x00000000        0x0 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(read.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00010000         xr
+RAM              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./build/./app/main.c.o
+LOAD ./build/./vendor/Core/core_riscv.c.o
+LOAD ./build/./vendor/Debug/debug.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_bkp.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_i2c.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_pwr.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_iwdg.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_dbgmcu.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_rtc.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_dma.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_tim.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_exti.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_wwdg.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_spi.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_crc.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_adc.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_can.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_opa.c.o
+LOAD ./build/./vendor/Peripheral/src/ch32v20x_flash.c.o
+LOAD ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+LOAD ./build/./vendor/User/system_ch32v20x.c.o
+LOAD ./build/./vendor/User/ch32v20x_it.c.o
+LOAD /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/rv32imafc_zicsr/ilp32f/libgcc.a
+LOAD /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a
+LOAD /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libc_nano.a
+LOAD /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/rv32imafc_zicsr/ilp32f/libgcc.a
+START GROUP
+LOAD /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/rv32imafc_zicsr/ilp32f/libgcc.a
+LOAD /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libc_nano.a
+LOAD /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a
+END GROUP
+START GROUP
+LOAD /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/rv32imafc_zicsr/ilp32f/libgcc.a
+LOAD /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libc_nano.a
+LOAD /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a
+END GROUP
+                0x00000800                        __stack_size = 0x800
+                [!provide]                        PROVIDE (_stack_size = __stack_size)
+
+.init           0x00000000       0x38
+                0x00000000                        _sinit = .
+                0x00000000                        . = ALIGN (0x4)
+ *(SORT_NONE(.init))
+ .init          0x00000000       0x38 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+                0x00000000                _start
+                0x00000038                        . = ALIGN (0x4)
+                0x00000038                        _einit = .
+
+.vector         0x00000038      0x108
+ *(.vector)
+ .vector        0x00000038       0xfc ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+                0x00000140                        . = ALIGN (0x40)
+ *fill*         0x00000134        0xc 
+
+.text           0x00000140     0x1a04
+                0x00000140                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000140       0x10 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memset.o)
+                0x00000140                memset
+ *(.text.*)
+ .text.GPIO_Toggle_init
+                0x00000150       0x30 ./build/./app/main.c.o
+                0x00000150                GPIO_Toggle_init
+ .text.startup.main
+                0x00000180       0xa0 ./build/./app/main.c.o
+                0x00000180                main
+ .text.Delay_Init
+                0x00000220       0x2a ./build/./vendor/Debug/debug.c.o
+                0x00000220                Delay_Init
+ .text.Delay_Ms
+                0x0000024a       0x36 ./build/./vendor/Debug/debug.c.o
+                0x0000024a                Delay_Ms
+ .text.USART_Printf_Init
+                0x00000280       0x5a ./build/./vendor/Debug/debug.c.o
+                0x00000280                USART_Printf_Init
+ .text._write   0x000002da       0x4c ./build/./vendor/Debug/debug.c.o
+                0x000002da                _write
+ .text._sbrk    0x00000326       0x2a ./build/./vendor/Debug/debug.c.o
+                0x00000326                _sbrk
+ .text.NVIC_PriorityGroupConfig
+                0x00000350        0x6 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+                0x00000350                NVIC_PriorityGroupConfig
+ .text.USART_Init
+                0x00000356       0xd4 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+                0x00000356                USART_Init
+ .text.USART_Cmd
+                0x0000042a       0x18 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+                0x0000042a                USART_Cmd
+ .text.USART_SendData
+                0x00000442        0xa ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+                0x00000442                USART_SendData
+ .text.USART_GetFlagStatus
+                0x0000044c        0xc ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+                0x0000044c                USART_GetFlagStatus
+ .text.GPIO_Init
+                0x00000458       0xd0 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+                0x00000458                GPIO_Init
+ .text.GPIO_WriteBit
+                0x00000528       0x14 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+                0x00000528                GPIO_WriteBit
+ .text.RCC_GetClocksFreq
+                0x0000053c       0xba ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+                0x0000053c                RCC_GetClocksFreq
+ .text.RCC_APB2PeriphClockCmd
+                0x000005f6       0x1e ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+                0x000005f6                RCC_APB2PeriphClockCmd
+ .text.vector_handler
+                0x00000614       0x6c ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+                0x00000618                Ecall_M_Mode_Handler
+                0x0000061a                Ecall_U_Mode_Handler
+                0x0000061c                Break_Point_Handler
+                0x0000061e                SysTick_Handler
+                0x00000620                SW_handler
+                0x00000622                WWDG_IRQHandler
+                0x00000624                PVD_IRQHandler
+                0x00000626                TAMPER_IRQHandler
+                0x00000628                RTC_IRQHandler
+                0x0000062a                FLASH_IRQHandler
+                0x0000062c                RCC_IRQHandler
+                0x0000062e                EXTI0_IRQHandler
+                0x00000630                EXTI1_IRQHandler
+                0x00000632                EXTI2_IRQHandler
+                0x00000634                EXTI3_IRQHandler
+                0x00000636                EXTI4_IRQHandler
+                0x00000638                DMA1_Channel1_IRQHandler
+                0x0000063a                DMA1_Channel2_IRQHandler
+                0x0000063c                DMA1_Channel3_IRQHandler
+                0x0000063e                DMA1_Channel4_IRQHandler
+                0x00000640                DMA1_Channel5_IRQHandler
+                0x00000642                DMA1_Channel6_IRQHandler
+                0x00000644                DMA1_Channel7_IRQHandler
+                0x00000646                ADC1_2_IRQHandler
+                0x00000648                USB_HP_CAN1_TX_IRQHandler
+                0x0000064a                USB_LP_CAN1_RX0_IRQHandler
+                0x0000064c                CAN1_RX1_IRQHandler
+                0x0000064e                CAN1_SCE_IRQHandler
+                0x00000650                EXTI9_5_IRQHandler
+                0x00000652                TIM1_BRK_IRQHandler
+                0x00000654                TIM1_UP_IRQHandler
+                0x00000656                TIM1_TRG_COM_IRQHandler
+                0x00000658                TIM1_CC_IRQHandler
+                0x0000065a                TIM2_IRQHandler
+                0x0000065c                TIM3_IRQHandler
+                0x0000065e                TIM4_IRQHandler
+                0x00000660                I2C1_EV_IRQHandler
+                0x00000662                I2C1_ER_IRQHandler
+                0x00000664                I2C2_EV_IRQHandler
+                0x00000666                I2C2_ER_IRQHandler
+                0x00000668                SPI1_IRQHandler
+                0x0000066a                SPI2_IRQHandler
+                0x0000066c                USART1_IRQHandler
+                0x0000066e                USART2_IRQHandler
+                0x00000670                USART3_IRQHandler
+                0x00000672                EXTI15_10_IRQHandler
+                0x00000674                RTCAlarm_IRQHandler
+                0x00000676                USBWakeUp_IRQHandler
+                0x00000678                USBHD_IRQHandler
+                0x0000067a                USBHDWakeUp_IRQHandler
+                0x0000067c                UART4_IRQHandler
+                0x0000067e                DMA1_Channel8_IRQHandler
+ .text.handle_reset
+                0x00000680       0x86 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+                0x00000680                handle_reset
+ .text.SystemInit
+                0x00000706       0xea ./build/./vendor/User/system_ch32v20x.c.o
+                0x00000706                SystemInit
+ .text.SystemCoreClockUpdate
+                0x000007f0       0x76 ./build/./vendor/User/system_ch32v20x.c.o
+                0x000007f0                SystemCoreClockUpdate
+ .text.NMI_Handler
+                0x00000866        0x4 ./build/./vendor/User/ch32v20x_it.c.o
+                0x00000866                NMI_Handler
+ .text.HardFault_Handler
+                0x0000086a        0x2 ./build/./vendor/User/ch32v20x_it.c.o
+                0x0000086a                HardFault_Handler
+ .text.printf   0x0000086c       0x28 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-printf.o)
+                0x0000086c                printf
+                0x0000086c                iprintf
+ .text._puts_r  0x00000894       0xce /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-puts.o)
+                0x00000894                _puts_r
+ .text.puts     0x00000962        0x8 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-puts.o)
+                0x00000962                puts
+ .text.__swbuf_r
+                0x0000096a       0x9c /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wbuf.o)
+                0x0000096a                __swbuf_r
+ .text.__swsetup_r
+                0x00000a06       0xc8 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wsetup.o)
+                0x00000a06                __swsetup_r
+ .text.__retarget_lock_init_recursive
+                0x00000ace        0x2 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+                0x00000ace                __retarget_lock_init_recursive
+ .text.__retarget_lock_acquire_recursive
+                0x00000ad0        0x2 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+                0x00000ad0                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x00000ad2        0x2 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+                0x00000ad2                __retarget_lock_release_recursive
+ .text._free_r  0x00000ad4       0x9e /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-freer.o)
+                0x00000ad4                _free_r
+ .text.sbrk_aligned
+                0x00000b72       0x5a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x00000bcc      0x11c /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mallocr.o)
+                0x00000bcc                _malloc_r
+ .text.__malloc_lock
+                0x00000ce8        0x6 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mlock.o)
+                0x00000ce8                __malloc_lock
+ .text.__malloc_unlock
+                0x00000cee        0x6 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mlock.o)
+                0x00000cee                __malloc_unlock
+ .text.__sfputc_r
+                0x00000cf4       0x28 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x00000d1c       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o)
+                0x00000d1c                __sfputs_r
+ .text._vfprintf_r
+                0x00000d5e      0x2a2 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o)
+                0x00000d5e                _vfiprintf_r
+                0x00000d5e                _vfprintf_r
+ .text._printf_common
+                0x00001000      0x110 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00001000                _printf_common
+ .text._printf_i
+                0x00001110      0x262 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00001110                _printf_i
+ .text.__sflush_r
+                0x00001372      0x13c /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fflush.o)
+                0x00001372                __sflush_r
+ .text._fflush_r
+                0x000014ae       0x5e /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fflush.o)
+                0x000014ae                _fflush_r
+ .text.std      0x0000150c       0x98 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x000015a4       0x1a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x000015be       0x46 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x00001604       0x3a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x0000163e        0x8 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+                0x0000163e                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x00001646        0x8 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+                0x00001646                __sfp_lock_release
+ .text.__sinit  0x0000164e       0x2a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+                0x0000164e                __sinit
+ .text._fwalk_sglue
+                0x00001678       0x68 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fwalk.o)
+                0x00001678                _fwalk_sglue
+ .text.__swhatbuf_r
+                0x000016e0       0x5a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-makebuf.o)
+                0x000016e0                __swhatbuf_r
+ .text.__smakebuf_r
+                0x0000173a       0x9a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-makebuf.o)
+                0x0000173a                __smakebuf_r
+ .text.__sread  0x000017d4       0x30 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o)
+                0x000017d4                __sread
+ .text.__swrite
+                0x00001804       0x4e /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o)
+                0x00001804                __swrite
+ .text.__sseek  0x00001852       0x36 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o)
+                0x00001852                __sseek
+ .text.__sclose
+                0x00001888        0x6 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o)
+                0x00001888                __sclose
+ .text.memchr   0x0000188e       0x1a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memchr.o)
+                0x0000188e                memchr
+ .text._close_r
+                0x000018a8       0x26 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-closer.o)
+                0x000018a8                _close_r
+ .text._fstat_r
+                0x000018ce       0x28 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fstatr.o)
+                0x000018ce                _fstat_r
+ .text._isatty_r
+                0x000018f6       0x26 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-isattyr.o)
+                0x000018f6                _isatty_r
+ .text._lseek_r
+                0x0000191c       0x2a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lseekr.o)
+                0x0000191c                _lseek_r
+ .text._read_r  0x00001946       0x2a /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-readr.o)
+                0x00001946                _read_r
+ .text._sbrk_r  0x00001970       0x28 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-sbrkr.o)
+                0x00001970                _sbrk_r
+ .text._write_r
+                0x00001998       0x2c /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-writer.o)
+                0x00001998                _write_r
+ .text._close   0x000019c4        0xc /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(close.o)
+                0x000019c4                _close
+ .text._fstat   0x000019d0        0xc /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(fstat.o)
+                0x000019d0                _fstat
+ .text._isatty  0x000019dc        0xc /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(isatty.o)
+                0x000019dc                _isatty
+ .text._lseek   0x000019e8        0xc /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(lseek.o)
+                0x000019e8                _lseek
+ .text._read    0x000019f4        0xc /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(read.o)
+                0x000019f4                _read
+ *(.rodata)
+ *(.rodata*)
+ .rodata.main.str1.4
+                0x00001a00       0xc9 ./build/./app/main.c.o
+                                 0x8e (size before relaxing)
+ *fill*         0x00001ac9        0x3 
+ .rodata.APBAHBPrescTable
+                0x00001acc       0x10 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .rodata.AHBPrescTable
+                0x00001adc       0x10 ./build/./vendor/User/system_ch32v20x.c.o
+                0x00001adc                AHBPrescTable
+ .rodata._vfprintf_r.str1.4
+                0x00001aec       0x13 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o)
+ .rodata._printf_i.str1.4
+                0x00001aec       0x25 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .rodata._printf_i
+                0x00001aec       0x58 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ *(.glue_7)
+ *(.glue_7t)
+ *(.gnu.linkonce.t.*)
+                0x00001b44                        . = ALIGN (0x4)
+
+.rela.dyn       0x00001b44        0x0
+ .rela.text._sbrk
+                0x00001b44        0x0 ./build/./app/main.c.o
+ .rela.sdata.curbrk.0
+                0x00001b44        0x0 ./build/./app/main.c.o
+ .rela.init     0x00001b44        0x0 ./build/./app/main.c.o
+ .rela.vector   0x00001b44        0x0 ./build/./app/main.c.o
+ .rela.text.handle_reset
+                0x00001b44        0x0 ./build/./app/main.c.o
+ .rela.text._vfprintf_r
+                0x00001b44        0x0 ./build/./app/main.c.o
+
+.fini           0x00001b44        0x0
+ *(SORT_NONE(.fini))
+                0x00001b44                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (_eitcm = .)
+
+.preinit_array  0x00001b44        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00001b44        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x00001b44        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.dalign         0x20000000        0x0 load address 0x00001b44
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        PROVIDE (_data_vma = .)
+
+.dlalign        0x00001b44        0x0
+                0x00001b44                        . = ALIGN (0x4)
+                0x00001b44                        PROVIDE (_data_lma = .)
+
+.data           0x20000000       0x6c load address 0x00001b44
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ .data._impure_data
+                0x20000000       0x4c /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-impure.o)
+                0x20000000                _impure_data
+ .data.__sglue  0x2000004c        0xc /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+                0x2000004c                __sglue
+ *(.gnu.linkonce.d.*)
+                0x20000058                        . = ALIGN (0x8)
+                0x20000858                        PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ .sdata.curbrk.0
+                0x20000058        0x4 ./build/./vendor/Debug/debug.c.o
+ .sdata.SystemCoreClock
+                0x2000005c        0x4 ./build/./vendor/User/system_ch32v20x.c.o
+                0x2000005c                SystemCoreClock
+ .sdata._impure_ptr
+                0x20000060        0x4 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-impure.o)
+                0x20000060                _impure_ptr
+ *(.sdata2.*)
+ *(.gnu.linkonce.s.*)
+                0x20000068                        . = ALIGN (0x8)
+ *fill*         0x20000064        0x4 
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+ .srodata.ADCPrescTable
+                0x20000068        0x4 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+                0x2000006c                        . = ALIGN (0x4)
+                0x2000006c                        PROVIDE (_edata = .)
+
+.bss            0x2000006c      0x158 load address 0x00001bb0
+                0x2000006c                        . = ALIGN (0x4)
+                0x2000006c                        PROVIDE (_sbss = .)
+ *(.sbss*)
+ .sbss.p_ms     0x2000006c        0x2 ./build/./vendor/Debug/debug.c.o
+ .sbss.p_us     0x2000006e        0x1 ./build/./vendor/Debug/debug.c.o
+ *fill*         0x2000006f        0x1 
+ .sbss.NVIC_Priority_Group
+                0x20000070        0x4 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+                0x20000070                NVIC_Priority_Group
+ .sbss.__lock___malloc_recursive_mutex
+                0x20000074        0x1 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+                0x20000074                __lock___malloc_recursive_mutex
+ *fill*         0x20000075        0x3 
+ .sbss.__lock___sfp_recursive_mutex
+                0x20000078        0x1 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+                0x20000078                __lock___sfp_recursive_mutex
+ *fill*         0x20000079        0x3 
+ .sbss.__malloc_sbrk_start
+                0x2000007c        0x4 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mallocr.o)
+                0x2000007c                __malloc_sbrk_start
+ .sbss.__malloc_free_list
+                0x20000080        0x4 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mallocr.o)
+                0x20000080                __malloc_free_list
+ .sbss.__stdio_exit_handler
+                0x20000084        0x4 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+                0x20000084                __stdio_exit_handler
+ .sbss.errno    0x20000088        0x4 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reent.o)
+                0x20000088                errno
+ *(.gnu.linkonce.sb.*)
+ *(.bss*)
+ .bss.__sf      0x2000008c      0x138 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+                0x2000008c                __sf
+ *(.gnu.linkonce.b.*)
+ *(COMMON*)
+                0x200001c4                        . = ALIGN (0x4)
+                0x200001c4                        PROVIDE (_ebss = .)
+                0x200001c4                        PROVIDE (_end = _ebss)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x20004800      0x800
+                0x20004800                        PROVIDE (_heap_end = .)
+                0x20004800                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_susrstack = .)
+                0x20005000                        . = (. + __stack_size)
+ *fill*         0x20004800      0x800 
+                0x20005000                        PROVIDE (_eusrstack = .)
+OUTPUT(build/app.elf elf32-littleriscv)
+
+.debug_info     0x00000000     0x2fa6
+ .debug_info    0x00000000      0x538 ./build/./app/main.c.o
+ .debug_info    0x00000538      0x68d ./build/./vendor/Debug/debug.c.o
+ .debug_info    0x00000bc5      0x5a2 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .debug_info    0x00001167      0xa60 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .debug_info    0x00001bc7      0x79a ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .debug_info    0x00002361      0x8f5 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .debug_info    0x00002c56       0x23 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+ .debug_info    0x00002c79      0x299 ./build/./vendor/User/system_ch32v20x.c.o
+ .debug_info    0x00002f12       0x94 ./build/./vendor/User/ch32v20x_it.c.o
+
+.debug_abbrev   0x00000000      0xe8f
+ .debug_abbrev  0x00000000      0x1d1 ./build/./app/main.c.o
+ .debug_abbrev  0x000001d1      0x227 ./build/./vendor/Debug/debug.c.o
+ .debug_abbrev  0x000003f8      0x1db ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .debug_abbrev  0x000005d3      0x21c ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .debug_abbrev  0x000007ef      0x253 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .debug_abbrev  0x00000a42      0x251 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .debug_abbrev  0x00000c93       0x12 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+ .debug_abbrev  0x00000ca5      0x1a5 ./build/./vendor/User/system_ch32v20x.c.o
+ .debug_abbrev  0x00000e4a       0x45 ./build/./vendor/User/ch32v20x_it.c.o
+
+.debug_loclists
+                0x00000000     0x10e8
+ .debug_loclists
+                0x00000000       0x20 ./build/./app/main.c.o
+ .debug_loclists
+                0x00000020      0x10d ./build/./vendor/Debug/debug.c.o
+ .debug_loclists
+                0x0000012d       0xb3 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .debug_loclists
+                0x000001e0      0x557 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .debug_loclists
+                0x00000737      0x51f ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .debug_loclists
+                0x00000c56      0x430 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .debug_loclists
+                0x00001086       0x62 ./build/./vendor/User/system_ch32v20x.c.o
+
+.debug_aranges  0x00000000      0x3e8
+ .debug_aranges
+                0x00000000       0x28 ./build/./app/main.c.o
+ .debug_aranges
+                0x00000028       0x48 ./build/./vendor/Debug/debug.c.o
+ .debug_aranges
+                0x00000070       0x28 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .debug_aranges
+                0x00000098      0x100 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .debug_aranges
+                0x00000198       0xa8 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .debug_aranges
+                0x00000240      0x128 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .debug_aranges
+                0x00000368       0x30 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+ .debug_aranges
+                0x00000398       0x28 ./build/./vendor/User/system_ch32v20x.c.o
+ .debug_aranges
+                0x000003c0       0x28 ./build/./vendor/User/ch32v20x_it.c.o
+
+.debug_rnglists
+                0x00000000      0x301
+ .debug_rnglists
+                0x00000000       0x1a ./build/./app/main.c.o
+ .debug_rnglists
+                0x0000001a       0x31 ./build/./vendor/Debug/debug.c.o
+ .debug_rnglists
+                0x0000004b       0x3e ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .debug_rnglists
+                0x00000089       0xbd ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .debug_rnglists
+                0x00000146       0x7c ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .debug_rnglists
+                0x000001c2       0xda ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .debug_rnglists
+                0x0000029c       0x20 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+ .debug_rnglists
+                0x000002bc       0x2c ./build/./vendor/User/system_ch32v20x.c.o
+ .debug_rnglists
+                0x000002e8       0x19 ./build/./vendor/User/ch32v20x_it.c.o
+
+.debug_line     0x00000000     0x3dde
+ .debug_line    0x00000000      0x259 ./build/./app/main.c.o
+ .debug_line    0x00000259      0x523 ./build/./vendor/Debug/debug.c.o
+ .debug_line    0x0000077c      0x2cb ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .debug_line    0x00000a47      0xe3a ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .debug_line    0x00001881      0xd71 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .debug_line    0x000025f2     0x1011 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .debug_line    0x00003603      0x258 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+ .debug_line    0x0000385b      0x509 ./build/./vendor/User/system_ch32v20x.c.o
+ .debug_line    0x00003d64       0x7a ./build/./vendor/User/ch32v20x_it.c.o
+
+.debug_str      0x00000000     0x13aa
+ .debug_str     0x00000000     0x13aa ./build/./app/main.c.o
+                                0x455 (size before relaxing)
+ .debug_str     0x000013aa      0x500 ./build/./vendor/Debug/debug.c.o
+ .debug_str     0x000013aa      0x643 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .debug_str     0x000013aa      0x6d4 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .debug_str     0x000013aa      0x52f ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .debug_str     0x000013aa      0x67b ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .debug_str     0x000013aa       0x72 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+ .debug_str     0x000013aa      0x287 ./build/./vendor/User/system_ch32v20x.c.o
+ .debug_str     0x000013aa      0x16c ./build/./vendor/User/ch32v20x_it.c.o
+
+.debug_line_str
+                0x00000000      0x394
+ .debug_line_str
+                0x00000000      0x394 ./build/./app/main.c.o
+                                0x25b (size before relaxing)
+ .debug_line_str
+                0x00000394      0x25f ./build/./vendor/Debug/debug.c.o
+ .debug_line_str
+                0x00000394      0x1e7 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .debug_line_str
+                0x00000394      0x1fa ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .debug_line_str
+                0x00000394      0x1f6 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .debug_line_str
+                0x00000394      0x1e3 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .debug_line_str
+                0x00000394       0x66 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+ .debug_line_str
+                0x00000394      0x1e9 ./build/./vendor/User/system_ch32v20x.c.o
+ .debug_line_str
+                0x00000394       0xc4 ./build/./vendor/User/ch32v20x_it.c.o
+
+.comment        0x00000000       0x33
+ .comment       0x00000000       0x33 ./build/./app/main.c.o
+                                 0x34 (size before relaxing)
+ .comment       0x00000033       0x34 ./build/./vendor/Debug/debug.c.o
+ .comment       0x00000033       0x34 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .comment       0x00000033       0x34 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .comment       0x00000033       0x34 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .comment       0x00000033       0x34 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .comment       0x00000033       0x34 ./build/./vendor/User/system_ch32v20x.c.o
+ .comment       0x00000033       0x34 ./build/./vendor/User/ch32v20x_it.c.o
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-printf.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-puts.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wbuf.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wsetup.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-impure.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-freer.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mallocr.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mlock.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fflush.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fwalk.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-makebuf.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memchr.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-closer.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reent.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fstatr.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-isattyr.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lseekr.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-readr.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-sbrkr.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-writer.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(close.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(fstat.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(isatty.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(lseek.o)
+ .comment       0x00000033       0x34 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(read.o)
+
+.riscv.attributes
+                0x00000000       0x46
+ .riscv.attributes
+                0x00000000       0x42 ./build/./app/main.c.o
+ .riscv.attributes
+                0x00000042       0x42 ./build/./vendor/Debug/debug.c.o
+ .riscv.attributes
+                0x00000084       0x42 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .riscv.attributes
+                0x000000c6       0x42 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .riscv.attributes
+                0x00000108       0x42 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .riscv.attributes
+                0x0000014a       0x42 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .riscv.attributes
+                0x0000018c       0x44 ./build/./vendor/Startup/startup_ch32v20x_D6.S.o
+ .riscv.attributes
+                0x000001d0       0x42 ./build/./vendor/User/system_ch32v20x.c.o
+ .riscv.attributes
+                0x00000212       0x46 ./build/./vendor/User/ch32v20x_it.c.o
+ .riscv.attributes
+                0x00000258       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-printf.o)
+ .riscv.attributes
+                0x0000029a       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-puts.o)
+ .riscv.attributes
+                0x000002dc       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wbuf.o)
+ .riscv.attributes
+                0x0000031e       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-wsetup.o)
+ .riscv.attributes
+                0x00000360       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-impure.o)
+ .riscv.attributes
+                0x000003a2       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lock.o)
+ .riscv.attributes
+                0x000003e4       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-freer.o)
+ .riscv.attributes
+                0x00000426       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mallocr.o)
+ .riscv.attributes
+                0x00000468       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-mlock.o)
+ .riscv.attributes
+                0x000004aa       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf.o)
+ .riscv.attributes
+                0x000004ec       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .riscv.attributes
+                0x0000052e       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fflush.o)
+ .riscv.attributes
+                0x00000570       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-findfp.o)
+ .riscv.attributes
+                0x000005b2       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fwalk.o)
+ .riscv.attributes
+                0x000005f4       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-makebuf.o)
+ .riscv.attributes
+                0x00000636       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-stdio.o)
+ .riscv.attributes
+                0x00000678       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memchr.o)
+ .riscv.attributes
+                0x000006ba       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-closer.o)
+ .riscv.attributes
+                0x000006fc       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-reent.o)
+ .riscv.attributes
+                0x0000073e       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-fstatr.o)
+ .riscv.attributes
+                0x00000780       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-isattyr.o)
+ .riscv.attributes
+                0x000007c2       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-lseekr.o)
+ .riscv.attributes
+                0x00000804       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-readr.o)
+ .riscv.attributes
+                0x00000846       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-sbrkr.o)
+ .riscv.attributes
+                0x00000888       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-writer.o)
+ .riscv.attributes
+                0x000008ca       0x40 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libg_nano.a(libc_a-memset.o)
+ .riscv.attributes
+                0x0000090a       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(close.o)
+ .riscv.attributes
+                0x0000094c       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(fstat.o)
+ .riscv.attributes
+                0x0000098e       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(isatty.o)
+ .riscv.attributes
+                0x000009d0       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(lseek.o)
+ .riscv.attributes
+                0x00000a12       0x42 /nix/store/7cgn622cqyz41hw4z07lv305pfk5n6r0-source/bin/../lib/gcc/riscv-none-elf/13.2.0/../../../../riscv-none-elf/lib/rv32imafc_zicsr/ilp32f/libnosys.a(read.o)
+
+.debug_frame    0x00000000      0x72c
+ .debug_frame   0x00000000       0x48 ./build/./app/main.c.o
+ .debug_frame   0x00000048       0xa4 ./build/./vendor/Debug/debug.c.o
+ .debug_frame   0x000000ec       0x30 ./build/./vendor/Peripheral/src/ch32v20x_misc.c.o
+ .debug_frame   0x0000011c      0x214 ./build/./vendor/Peripheral/src/ch32v20x_usart.c.o
+ .debug_frame   0x00000330      0x150 ./build/./vendor/Peripheral/src/ch32v20x_gpio.c.o
+ .debug_frame   0x00000480      0x240 ./build/./vendor/Peripheral/src/ch32v20x_rcc.c.o
+ .debug_frame   0x000006c0       0x3c ./build/./vendor/User/system_ch32v20x.c.o
+ .debug_frame   0x000006fc       0x30 ./build/./vendor/User/ch32v20x_it.c.o
