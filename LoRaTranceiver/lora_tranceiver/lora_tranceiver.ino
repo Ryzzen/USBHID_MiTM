@@ -1,3 +1,4 @@
+
 #include <CircularBuffer.hpp>
 
 #include "LoRaWan_APP.h"
@@ -6,8 +7,7 @@
 
 #define RF_FREQUENCY                                915000000 // Hz
 
-#define TX_OUTPUT_POWER                             5        // dBm
-
+#define TX_OUTPUT_POWER                             5        // d
 #define LORA_BANDWIDTH                              0         // [0: 125 kHz,
                                                               //  1: 250 kHz,
                                                               //  2: 500 kHz,

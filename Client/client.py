@@ -120,6 +120,8 @@ if __name__ == "__main__":
       text = ""
       for el in report[1:]:
          lst_char = usb_codes.get(el) # char is a list 
+         if lst_char is None:
+            continue
 
          if el == 0x39:
             caps_lock      = not caps_lock
