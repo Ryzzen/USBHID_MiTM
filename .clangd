@@ -1,0 +1,2 @@
+CompileFlags:
+  Remove: [-mabi=*, -mno-save-restore, -G, -mcpu=*, -march=*]
